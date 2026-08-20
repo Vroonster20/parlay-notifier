@@ -22,6 +22,10 @@ def _fetch_live_odds():
     api_key = os.environ.get("THE_ODDS_KEY")
     BASE_URL = "https://api.the-odds-api.com/v4"
 
+    if api_key is None:
+        raise ValueError("Missing the api key")
+
+    #TODO: to access multiple sports for parlays, I will need to change these hardcoded values
     sport: str = "baseball_mlb"
     regions: str = "us"
     markets: str = "h2h"
@@ -46,10 +50,15 @@ def _fetch_live_odds():
     return data
 
 def _fetch_snapshot_odds():
-    # TODO: open SNAPSHOT_PATH, load the JSON, return it
-    # TODO: what should happen if the file doesn't exist yet?
-    #       (hint: this is a good first bug to hit and fix yourself)
-    return "not working"
+    if not os.path.exists(SNAPSHOT_PATH):
+        raise FileNotFoundError(f"File not found: {SNAPSHOT_PATH}")
+    if not os.path.isfile(SNAPSHOT_PATH):
+        raise ValueError(f"Path is not a file: {SNAPSHOT_PATH}")
+
+    with open(SNAPSHOT_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    return data
 
 if __name__ == "__main__":
     games = fetch_odds()

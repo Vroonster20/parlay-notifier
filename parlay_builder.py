@@ -42,8 +42,3 @@ def build_safe_parlay(games, min_legs=2, max_legs=4, max_favorite_price=1.8):
         return []
 
     return selected_picks
-
-
-# if __name__ == "__main__":
-#     parlay = build_safe_parlay()
-#     print(parlay)

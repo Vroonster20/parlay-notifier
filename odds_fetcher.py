@@ -5,9 +5,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 from datetime import datetime, timezone
 
-#TODO: check to see if snapshot_odds.json is correct with the
-#new flatten_games()
-
 load_dotenv()
 SNAPSHOT_PATH = "snapshot_odds.json"
 
@@ -103,7 +100,3 @@ def _fetch_snapshot_odds():
         data = json.load(f)
     
     return data
-
-# if __name__ == "__main__":
-#     games = fetch_odds()
-#     print(games)

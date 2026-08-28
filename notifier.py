@@ -18,10 +18,3 @@ def send_notification(parlay, title="Today's Safe Parlay"):
 
     response = requests.post(url, data=final_message.encode('utf-8'))
     response.raise_for_status()
-
-# if __name__ == "__main__":
-#     fake_parlay = [
-#         {"team": "Atlanta Braves", "price": 1.43},
-#         {"team": "Milwaukee Brewers", "price": 1.45},
-#     ]
-#     send_notification(fake_parlay)

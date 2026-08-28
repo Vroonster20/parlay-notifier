@@ -2,12 +2,8 @@ import os
 import json
 import requests
 from pathlib import Path
-from odds_fetcher import fetch_odds
 
-
-def build_safe_parlay(games=None, min_legs=2, max_legs=4, max_favorite_price=1.8):
-    if games is None:
-        games = fetch_odds()
+def build_safe_parlay(games, min_legs=2, max_legs=4, max_favorite_price=1.8):
     picks = []
 
     for match in games:
@@ -39,14 +35,15 @@ def build_safe_parlay(games=None, min_legs=2, max_legs=4, max_favorite_price=1.8
         except Exception as e:
             print(f"Unexpected error - {e}")
 
+    sorted_picks = sorted(picks, key=lambda item: item["price"])
+    selected_picks = sorted_picks[:max_legs]
+
     if len(selected_picks) < min_legs:
         return []
 
-    sorted_picks = sorted(picks, key=lambda item: item["price"])
-    selected_picks = sorted_picks[:max_legs]
     return selected_picks
 
 
-if __name__ == "__main__":
-    parlay = build_safe_parlay()
-    print(parlay)
+# if __name__ == "__main__":
+#     parlay = build_safe_parlay()
+#     print(parlay)

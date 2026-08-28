@@ -104,6 +104,6 @@ def _fetch_snapshot_odds():
     
     return data
 
-if __name__ == "__main__":
-    games = fetch_odds()
-    print(games)
+# if __name__ == "__main__":
+#     games = fetch_odds()
+#     print(games)

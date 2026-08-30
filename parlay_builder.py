@@ -35,10 +35,10 @@ def build_safe_parlay(games, min_legs=2, max_legs=4, max_favorite_price=1.8):
         except Exception as e:
             print(f"Unexpected error - {e}")
 
-    sorted_picks = sorted(picks, key=lambda item: item["price"])
-    selected_picks = sorted_picks[:max_legs]
+    selected_picks = {p["team"] for p in sorted(picks, key=lambda item: item["price"])[:max_legs]}
+    final_picks = [p for p in picks if p["team"] in selected_picks]
 
-    if len(selected_picks) < min_legs:
+    if len(final_picks) < min_legs:
         return []
 
-    return selected_picks
+    return final_picks

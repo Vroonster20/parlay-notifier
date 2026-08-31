@@ -3,7 +3,7 @@ import json
 import requests
 from pathlib import Path
 from dotenv import load_dotenv
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 load_dotenv()
 SNAPSHOT_PATH = "snapshot_odds.json"
@@ -22,7 +22,13 @@ def fetch_odds():
 
 def flatten_games(raw_games):
     flat = []
+
     now = datetime.now(timezone.utc)
+    local_offset = timedelta(hours=-5)
+    local_now = now + local_offset
+    end_of_today_local = local_now.replace(hour=23, minute=59, second=59, microsecond=0)
+    end_of_today_utc = end_of_today_local - local_offset
+
     selected_bookmaker = "BetMGM"
 
     for game in raw_games:
@@ -31,7 +37,7 @@ def flatten_games(raw_games):
         bookmakers = game.get('bookmakers', [])
 
         has_selected_bookmaker = any(b.get('title') == selected_bookmaker for b in bookmakers)
-        if (commence_time > now) and (has_selected_bookmaker):
+        if (now < commence_time < end_of_today_utc) and (has_selected_bookmaker):
             selected = next(b for b in bookmakers if b.get('title') == selected_bookmaker)
             prices = get_prices(selected)
             home_team = game["home_team"]

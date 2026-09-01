@@ -94,6 +94,10 @@ def _fetch_live_odds():
         with path.open("w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
 
+    print("Remaining:", response.headers.get("x-requests-remaining"))
+    print("Used:", response.headers.get("x-requests-used"))
+    print("Last call cost:", response.headers.get("x-requests-last"))
+
     return data
 
 def _fetch_snapshot_odds():

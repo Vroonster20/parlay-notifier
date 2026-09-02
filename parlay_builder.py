@@ -8,8 +8,8 @@ def build_safe_parlay(games, min_legs=2, max_legs=4, max_favorite_price=1.8):
 
     for idx, match in enumerate(games):
         try:
-            home_price = float(match["home_price"])
-            away_price = float(match["away_price"])
+            home_price = float(match["home_price"]["avg"])
+            away_price = float(match["away_price"]["avg"])
 
             if home_price < away_price:
                 favorite_team = (match["home_team"])

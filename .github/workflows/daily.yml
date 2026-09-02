@@ -2,13 +2,8 @@ name: Daily Fliff Parlay
 
 on:
   schedule:
-    - cron: "10 16 * * 1-5" 
-    - cron: "45 10 * * 6"
-    - cron: "10 10 * * 0"
+    - cron: "30 12 * * *" 
   workflow_dispatch: {}      # lets you manually trigger a run from GitHub's UI to test
-
-env:
-  CRON_TZ: America/Chicago
 
 jobs:
   run-parlay:

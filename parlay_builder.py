@@ -36,7 +36,6 @@ def build_safe_parlay(games, min_legs=2, max_legs=4, max_favorite_price=1.8):
         except Exception as e:
             print(f"Unexpected error - {e}")
 
-    #selected_picks = {p["team"] for p in sorted(picks, key=lambda item: item["price"])[:max_legs]}
     top_by_price = sorted(picks, key=lambda item: item["price"])[:max_legs]
     final_picks = sorted(top_by_price, key=lambda item: item["idx"])
 

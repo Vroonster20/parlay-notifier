@@ -4,6 +4,7 @@ import requests
 from pathlib import Path
 from dotenv import load_dotenv
 from datetime import datetime, timezone, timedelta
+import statistics
 
 load_dotenv()
 SNAPSHOT_PATH = "snapshot_odds.json"
@@ -29,17 +30,11 @@ def flatten_games(raw_games):
     end_of_today_local = local_now.replace(hour=23, minute=59, second=59, microsecond=0)
     end_of_today_utc = end_of_today_local - local_offset
 
-    selected_bookmaker = "BetMGM"
-
     for game in raw_games:
         commence_time = datetime.fromisoformat(game["commence_time"]. replace("Z", "+00:00"))
-        
-        bookmakers = game.get('bookmakers', [])
 
-        has_selected_bookmaker = any(b.get('title') == selected_bookmaker for b in bookmakers)
-        if (now < commence_time < end_of_today_utc) and (has_selected_bookmaker):
-            selected = next(b for b in bookmakers if b.get('title') == selected_bookmaker)
-            prices = get_prices(selected)
+        if (now < commence_time < end_of_today_utc):
+            prices = get_prices(game)
             home_team = game["home_team"]
             away_team = game["away_team"]
             home_price = prices.get(game["home_team"])
@@ -51,19 +46,32 @@ def flatten_games(raw_games):
                 "home_price": home_price,
                 "away_price": away_price,
                 "commence_time": commence_time.isoformat(),
-            })
-        
+            })        
     return flat
 
-def get_prices(bookmaker):
+def get_prices(game):
     info = {}
-    for market in bookmaker.get('markets', []):
-        if market.get('key') == 'h2h':
-            for outcome in market.get('outcomes', []):
-                team = outcome.get('name', 'Unknown')
-                price = outcome.get('price', 'N/A')
-                info[team] = price
-    return info
+    for bookmaker in game.get('bookmakers', []):
+        for market in bookmaker.get('markets', []):
+            if market.get('key') == 'h2h':
+                for outcome in market.get('outcomes', []):
+                    team = outcome.get('name', 'Unknown')
+                    price = outcome.get('price', 'N/A')
+
+                    if team not in info:
+                        info[team] = []
+                    info[team].append(price)
+    results = {}
+    for team, values in info.items():
+        avg = round(statistics.mean(values), 3)
+        count = len(values)
+        stdev = round(statistics.pstdev(values), 3)
+        results[team] = {
+            "avg": avg,
+            "count": count,
+            "stdev": stdev,
+        }
+    return results
 
 def _fetch_live_odds():
     api_key = os.environ.get("THE_ODDS_KEY")
@@ -110,3 +118,8 @@ def _fetch_snapshot_odds():
         data = json.load(f)
     
     return data
+
+# if __name__ == "__main__":
+#     test = []
+#     games = flatten_games(test)
+#     print(games)

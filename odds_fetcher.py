@@ -23,7 +23,7 @@ def fetch_odds():
     return flatten_games(raw)
 
 def flatten_games(raw_games):
-    flat = []
+    flat = {}
 
     now = datetime.now(timezone.utc)
     local_offset = timedelta(hours=-5)

@@ -3,11 +3,12 @@ import json
 import requests
 from pathlib import Path
 from dotenv import load_dotenv
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 import statistics
 
 load_dotenv()
 SNAPSHOT_PATH = "snapshot_odds.json"
+SPORTS_PATH = "sports.json"
 
 def fetch_odds():
     run_mode = os.environ.get("RUN_MODE", "snapshot")
@@ -35,18 +36,25 @@ def flatten_games(raw_games):
 
         if (now < commence_time < end_of_today_utc):
             prices = get_prices(game)
+            sport = game.get("sport_key")
             home_team = game["home_team"]
             away_team = game["away_team"]
             home_price = prices.get(game["home_team"])
             away_price = prices.get(game["away_team"])
 
-            flat.append({
+            entry = {
+                #"sport": sport,
                 "home_team": home_team,
                 "away_team": away_team,
                 "home_price": home_price,
                 "away_price": away_price,
                 "commence_time": commence_time.isoformat(),
-            })        
+            }
+
+            if sport not in flat:
+                flat[sport] = []
+
+            flat[sport].append(entry)
     return flat
 
 def get_prices(game):
@@ -63,7 +71,7 @@ def get_prices(game):
                     info[team].append(price)
     results = {}
     for team, values in info.items():
-        avg = round(statistics.mean(values), 3)
+        avg = round(statistics.mean(values))
         count = len(values)
         stdev = round(statistics.pstdev(values), 3)
         results[team] = {
@@ -74,50 +82,106 @@ def get_prices(game):
     return results
 
 def _fetch_live_odds():
+    all_games = []
     api_key = os.environ.get("THE_ODDS_KEY")
     BASE_URL = "https://api.the-odds-api.com/v4"
 
     if api_key is None:
         raise ValueError("Missing the api key")
 
-    #TODO: to access multiple sports for parlays, I will need to change these hardcoded values
-    sport: str = "baseball_mlb"
     regions: str = "us"
     markets: str = "h2h"
+    format: str = "american"
+
+    params = {"apiKey": api_key}
+    call = requests.get(f"{BASE_URL}/sports", params=params)
+    call.raise_for_status()
+    sports_list = call.json()
+    if SPORTS_PATH:
+        path = Path(SPORTS_PATH)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(sports_list, f, indent=2)
+
+    selected_sports = {
+        'baseball_mlb',
+        'americanfootball_nfl', 
+        'basketball_nba', 
+        'icehockey_nhl',
+        #'basketball_ncaab',
+    }
 
     params = {
         "apiKey": api_key,
         "regions": regions,
         "markets": markets,
+        "oddsFormat": format,
     }
 
-    response = requests.get(f"{BASE_URL}/sports/{sport}/odds", params=params)
+    for key in selected_sports:
+        today = datetime.now(timezone.utc).date()
+        should_call = False
 
-    response.raise_for_status()
+        probe_month_day = {
+            "baseball_mlb": (3, 1),
+            "americanfootball_nfl": (8, 15),
+            "basketball_nba": (9, 15),
+            "icehockey_nhl": (9, 1),
+        }
+        probe_dates = {k: date(today.year, m, d) for k, (m, d) in probe_month_day.items()}
 
-    data = response.json()
-    if SNAPSHOT_PATH:
-        path = Path(SNAPSHOT_PATH)
-        path.parent.mkdir(parents=True, exist_ok=True)
-        with path.open("w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2)
+        file_path = os.path.join("sports_odds", key, "snapshot_odds.json")
 
-    print("Remaining:", response.headers.get("x-requests-remaining"))
+        if not os.path.exists(file_path):
+            if today >= probe_dates.get(key, today):
+                should_call = True
+        else:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                saved_data = json.load(f)
+            if saved_data:
+                start_date = datetime.fromisoformat(saved_data[0]["commence_time"].replace("Z", "+00:00")).date()
+                if today >= start_date - timedelta(days=3):
+                    should_call = True
+            else:
+                if today >= probe_dates.get(key, today):
+                    should_call = True
+
+        if should_call:
+            SNAPSHOT_PATH = f"sports_odds/{key}/snapshot_odds.json"
+            response = requests.get(f"{BASE_URL}/sports/{key}/odds", params=params)                           
+            response.raise_for_status()
+
+            print(f"[{key}] Last call cost:", response.headers.get("x-requests-last"))
+                                        
+            data = response.json()
+            if SNAPSHOT_PATH:
+                path = Path(SNAPSHOT_PATH)
+                path.parent.mkdir(parents=True, exist_ok=True)
+                with path.open("w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2)
+            all_games.extend(data)
+
+    print("\nRemaining:", response.headers.get("x-requests-remaining"))
     print("Used:", response.headers.get("x-requests-used"))
-    print("Last call cost:", response.headers.get("x-requests-last"))
 
-    return data
+    return all_games
 
 def _fetch_snapshot_odds():
-    if not os.path.exists(SNAPSHOT_PATH):
-        raise FileNotFoundError(f"File not found: {SNAPSHOT_PATH}")
-    if not os.path.isfile(SNAPSHOT_PATH):
-        raise ValueError(f"Path is not a file: {SNAPSHOT_PATH}")
+    all_games = []
+    base = Path("sports_odds")
 
-    with open(SNAPSHOT_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    return data
+    if not base.exists():
+        raise FileNotFoundError("No sports_odds folder found!")
+
+    for sport_folder in base.iterdir():
+        snapshot_file = sport_folder / "snapshot_odds.json"
+        if snapshot_file.exists():
+            with snapshot_file.open('r', encoding='utf-8') as f:
+                data = json.load(f)
+            all_games.extend(data)
+
+    return all_games
+
 
 # if __name__ == "__main__":
 #     test = []

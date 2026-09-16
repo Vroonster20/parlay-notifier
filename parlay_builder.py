@@ -3,7 +3,7 @@ import json
 import requests
 from pathlib import Path
 
-def build_safe_parlay(games, min_legs=2, max_legs=4, max_favorite_price=1.8):
+def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-150):
     picks = []
 
     for idx, match in enumerate(games):

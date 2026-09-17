@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 sports = {
-    "baseball_mlb": "⚾ Baseball Parlay",
-    "americanfootball_nfl": "🏈 Football Parlay",
-    "basketball_nba": "🏀 Basketball Parlay",
-    "icehockey_nhl": "🏒 Hockey Parlay",
+    "baseball_mlb": "⚾ BASEBALL PARLAY",
+    "americanfootball_nfl": "🏈 FOOTBALL PARLAY",
+    "basketball_nba": "🏀 BASKETBALL PARLAY",
+    "icehockey_nhl": "🏒 HOCKEY PARLAY",
 }
 
 def send_notification(parlay, title="Today's Safe Parlays!"):
@@ -26,5 +26,5 @@ def send_notification(parlay, title="Today's Safe Parlays!"):
     topic = os.environ.get("NTFY_TOPIC")
     url = f"https://ntfy.sh/{topic}"
 
-    response = requests.post(url, data=final_message.encode('utf-8'), headers= {"X-Markdown": "yes", "Title": title, "Priority": "5", "Tags": "money_with_wings"})
+    response = requests.post(url, data=final_message.encode('utf-8'), headers= {"Title": title, "Priority": "5", "Tags": "money_with_wings"})
     response.raise_for_status()

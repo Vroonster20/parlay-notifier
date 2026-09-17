@@ -141,6 +141,9 @@ def _fetch_live_odds():
 
         file_path = os.path.join("sports_odds", key, "snapshot_odds.json")
 
+        if not in_season(today, probe, end):
+            continue
+
         if not os.path.exists(file_path):
             if today >= probe_dates.get(key, today):
                 should_call = True
@@ -151,13 +154,6 @@ def _fetch_live_odds():
                 start_date = datetime.fromisoformat(saved_data[0]["commence_time"].replace("Z", "+00:00")).date()
                 if today >= start_date - timedelta(days=3):
                     should_call = True
-            else:
-                if probe < end:
-                    if (today >= probe) and (today <= end): 
-                        should_call = True
-                else:
-                    if (today >= probe) or (today <= end):
-                        should_call = True
 
         if should_call:
             SNAPSHOT_PATH = f"sports_odds/{key}/snapshot_odds.json"
@@ -178,6 +174,12 @@ def _fetch_live_odds():
     print("Used:", response.headers.get("x-requests-used"))
 
     return all_games
+
+def in_season(today, probe, end):
+    if probe <= end:
+        return probe <= today <= end
+    else:
+        return today >= probe or today <= end
 
 def _fetch_snapshot_odds():
     all_games = []

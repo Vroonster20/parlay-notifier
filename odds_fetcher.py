@@ -128,7 +128,16 @@ def _fetch_live_odds():
             "basketball_nba": (9, 15),
             "icehockey_nhl": (9, 1),
         }
+        end_month_day = {
+            "baseball_mlb": (11, 1),
+            "americanfootball_nfl": (3, 15),
+            "basketball_nba": (7, 15),
+            "icehockey_nhl": (5, 1),
+        }
         probe_dates = {k: date(today.year, m, d) for k, (m, d) in probe_month_day.items()}
+        probe = probe_dates.get(key, today)
+        end_dates = {k: date(today.year, m, d) for k, (m, d) in end_month_day.items()}
+        end = end_dates.get(key, today)
 
         file_path = os.path.join("sports_odds", key, "snapshot_odds.json")
 
@@ -143,8 +152,12 @@ def _fetch_live_odds():
                 if today >= start_date - timedelta(days=3):
                     should_call = True
             else:
-                if today >= probe_dates.get(key, today):
-                    should_call = True
+                if probe < end:
+                    if (today >= probe) and (today <= end): 
+                        should_call = True
+                else:
+                    if (today >= probe) or (today <= end):
+                        should_call = True
 
         if should_call:
             SNAPSHOT_PATH = f"sports_odds/{key}/snapshot_odds.json"

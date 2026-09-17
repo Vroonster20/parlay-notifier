@@ -1,268 +1,28 @@
 [
   {
-    "id": "e28a92e1cd8fe7ce97b34004a0d2063e",
+    "id": "97eacfe4e498d0be4c1fb28f0dccad61",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-08T23:40:51Z",
-    "home_team": "Kansas City Royals",
-    "away_team": "Arizona Diamondbacks",
-    "bookmakers": [
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Arizona Diamondbacks",
-                "price": -2700
-              },
-              {
-                "name": "Kansas City Royals",
-                "price": 900
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Arizona Diamondbacks",
-                "price": -3000
-              },
-              {
-                "name": "Kansas City Royals",
-                "price": 1100
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Arizona Diamondbacks",
-                "price": -4000
-              },
-              {
-                "name": "Kansas City Royals",
-                "price": 1100
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Arizona Diamondbacks",
-                "price": -2000
-              },
-              {
-                "name": "Kansas City Royals",
-                "price": 900
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "85c65d8138861fb6a024b339bf4f5ab6",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-08T23:41:00Z",
-    "home_team": "Milwaukee Brewers",
-    "away_team": "Chicago Cubs",
+    "commence_time": "2026-09-16T17:11:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": -260
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": 196
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": -225
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": 180
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": -251
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": 186
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": -300
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": 220
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": -245
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": 165
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "f62b9e0454b38cb2e0509ef206a08138",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-08T23:41:00Z",
-    "home_team": "Chicago White Sox",
-    "away_team": "Pittsburgh Pirates",
-    "bookmakers": [
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
                 "name": "Chicago White Sox",
-                "price": 3300
+                "price": -158
               },
               {
-                "name": "Pittsburgh Pirates",
-                "price": -10000
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "bbab891f2a9defcd506aafce495b42dc",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T01:41:00Z",
-    "home_team": "Athletics",
-    "away_team": "Toronto Blue Jays",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Athletics",
-                "price": 330
-              },
-              {
-                "name": "Toronto Blue Jays",
-                "price": -480
+                "name": "Cleveland Guardians",
+                "price": 124
               }
             ]
           }
@@ -271,82 +31,19 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
+        "last_update": "2026-09-16T18:29:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
+            "last_update": "2026-09-16T18:29:46Z",
             "outcomes": [
               {
-                "name": "Athletics",
-                "price": 285
+                "name": "Chicago White Sox",
+                "price": 385
               },
               {
-                "name": "Toronto Blue Jays",
-                "price": -400
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Athletics",
-                "price": 304
-              },
-              {
-                "name": "Toronto Blue Jays",
-                "price": -445
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Athletics",
-                "price": 350
-              },
-              {
-                "name": "Toronto Blue Jays",
-                "price": -550
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Athletics",
-                "price": 360
-              },
-              {
-                "name": "Toronto Blue Jays",
-                "price": -500
+                "name": "Cleveland Guardians",
+                "price": -556
               }
             ]
           }
@@ -355,19 +52,82 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "Athletics",
-                "price": 310
+                "name": "Chicago White Sox",
+                "price": -205
               },
               {
-                "name": "Toronto Blue Jays",
-                "price": -530
+                "name": "Cleveland Guardians",
+                "price": 143
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago White Sox",
+                "price": -172
+              },
+              {
+                "name": "Cleveland Guardians",
+                "price": 131
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Chicago White Sox",
+                "price": -175
+              },
+              {
+                "name": "Cleveland Guardians",
+                "price": 135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Chicago White Sox",
+                "price": -160
+              },
+              {
+                "name": "Cleveland Guardians",
+                "price": 130
               }
             ]
           }
@@ -376,113 +136,29 @@
     ]
   },
   {
-    "id": "24d1608c7ffefab567006f6da92fc5f0",
+    "id": "6e2eb2cc19ebcdb2b0405dff792ab529",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-09T01:41:00Z",
-    "home_team": "San Diego Padres",
-    "away_team": "Washington Nationals",
+    "commence_time": "2026-09-16T17:16:00Z",
+    "home_team": "St. Louis Cardinals",
+    "away_team": "San Francisco Giants",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
-                "price": -104
+                "name": "San Francisco Giants",
+                "price": -172
               },
               {
-                "name": "Washington Nationals",
-                "price": -122
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": -110
-              },
-              {
-                "name": "Washington Nationals",
-                "price": -120
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": -115
-              },
-              {
-                "name": "Washington Nationals",
-                "price": -121
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": -111
-              },
-              {
-                "name": "Washington Nationals",
-                "price": -117
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": 105
-              },
-              {
-                "name": "Washington Nationals",
-                "price": -135
+                "name": "St. Louis Cardinals",
+                "price": 134
               }
             ]
           }
@@ -491,625 +167,175 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
+        "last_update": "2026-09-16T18:29:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
+            "last_update": "2026-09-16T18:29:46Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
+                "name": "San Francisco Giants",
+                "price": -182
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": 135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "San Francisco Giants",
+                "price": -130
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "San Francisco Giants",
+                "price": -139
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": -103
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "San Francisco Giants",
+                "price": -126
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": -103
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "San Francisco Giants",
+                "price": -180
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": 140
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d2d5b9cc47ff975b91780b6cb7753dae",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-16T17:41:00Z",
+    "home_team": "Minnesota Twins",
+    "away_team": "New York Yankees",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Twins",
+                "price": -138
+              },
+              {
+                "name": "New York Yankees",
+                "price": 108
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Twins",
                 "price": -133
               },
               {
-                "name": "Washington Nationals",
+                "name": "New York Yankees",
                 "price": 105
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "9320b01114d200ee9f8d2fb0848e6496",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T01:41:00Z",
-    "home_team": "Seattle Mariners",
-    "away_team": "Texas Rangers",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": 210
-              },
-              {
-                "name": "Texas Rangers",
-                "price": -280
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": 205
-              },
-              {
-                "name": "Texas Rangers",
-                "price": -286
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": 190
-              },
-              {
-                "name": "Texas Rangers",
-                "price": -260
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": 217
-              },
-              {
-                "name": "Texas Rangers",
-                "price": -299
-              }
-            ]
-          }
-        ]
       },
       {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
+        "last_update": "2026-09-16T18:30:58Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
+            "last_update": "2026-09-16T18:30:58Z",
             "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": 210
-              },
-              {
-                "name": "Texas Rangers",
-                "price": -275
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": 195
-              },
-              {
-                "name": "Texas Rangers",
-                "price": -286
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "7fe872788a9a570ceb3aa6918bbf641d",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T01:46:00Z",
-    "home_team": "San Francisco Giants",
-    "away_team": "St. Louis Cardinals",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": -310
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": 230
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": -222
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": 170
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": -317
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": 229
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": -350
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": 250
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": -300
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": 230
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": -335
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": 220
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "f01c292dd868a51b739e2283164a5e94",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T02:11:00Z",
-    "home_team": "Los Angeles Dodgers",
-    "away_team": "Cincinnati Reds",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 300
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -430
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:11:15Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:11:15Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 265
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -300
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:10:45Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:10:45Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 265
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -300
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 275
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -400
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 250
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -325
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 289
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -418
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 255
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -360
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 240
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -375
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:14:13Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:14:13Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 254
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -300
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "3fdcf1fc18b369e071964b94abe0e5fe",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T17:11:00Z",
-    "home_team": "Detroit Tigers",
-    "away_team": "Minnesota Twins",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Detroit Tigers",
-                "price": -132
-              },
               {
                 "name": "Minnesota Twins",
-                "price": 112
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Detroit Tigers",
-                "price": -131
+                "price": -140
               },
               {
-                "name": "Minnesota Twins",
-                "price": 111
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
-            "outcomes": [
-              {
-                "name": "Detroit Tigers",
-                "price": -125
-              },
-              {
-                "name": "Minnesota Twins",
-                "price": 113
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Detroit Tigers",
-                "price": -125
-              },
-              {
-                "name": "Minnesota Twins",
-                "price": 113
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Detroit Tigers",
-                "price": -131
-              },
-              {
-                "name": "Minnesota Twins",
-                "price": 109
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Detroit Tigers",
-                "price": -135
-              },
-              {
-                "name": "Minnesota Twins",
+                "name": "New York Yankees",
                 "price": 110
               }
             ]
@@ -1117,21 +343,21 @@
         ]
       },
       {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
+            "last_update": "2026-09-16T18:31:21Z",
             "outcomes": [
               {
-                "name": "Detroit Tigers",
-                "price": -125
+                "name": "Minnesota Twins",
+                "price": -139
               },
               {
-                "name": "Minnesota Twins",
-                "price": 114
+                "name": "New York Yankees",
+                "price": 107
               }
             ]
           }
@@ -1140,19 +366,19 @@
       {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
+        "last_update": "2026-09-16T18:31:27Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
+            "last_update": "2026-09-16T18:31:27Z",
             "outcomes": [
               {
-                "name": "Detroit Tigers",
-                "price": -131
+                "name": "Minnesota Twins",
+                "price": -135
               },
               {
-                "name": "Minnesota Twins",
-                "price": 109
+                "name": "New York Yankees",
+                "price": 105
               }
             ]
           }
@@ -1161,19 +387,19 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "Detroit Tigers",
-                "price": -129
+                "name": "Minnesota Twins",
+                "price": -137
               },
               {
-                "name": "Minnesota Twins",
-                "price": 108
+                "name": "New York Yankees",
+                "price": -103
               }
             ]
           }
@@ -1182,92 +408,29 @@
     ]
   },
   {
-    "id": "4a391464b8e1ffee0ee5e205298840de",
+    "id": "fa74757372f1d4cb43bd1510e5ed1213",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-09T19:46:00Z",
-    "home_team": "San Francisco Giants",
-    "away_team": "St. Louis Cardinals",
+    "commence_time": "2026-09-16T19:08:00Z",
+    "home_team": "Toronto Blue Jays",
+    "away_team": "Detroit Tigers",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
-                "name": "San Francisco Giants",
-                "price": 106
+                "name": "Detroit Tigers",
+                "price": 112
               },
               {
-                "name": "St. Louis Cardinals",
-                "price": -124
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": 105
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": -125
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": 106
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": -125
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "San Francisco Giants",
-                "price": 105
-              },
-              {
-                "name": "St. Louis Cardinals",
-                "price": -125
+                "name": "Toronto Blue Jays",
+                "price": -132
               }
             ]
           }
@@ -1276,19 +439,19 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
+        "last_update": "2026-09-16T18:31:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
+            "last_update": "2026-09-16T18:31:49Z",
             "outcomes": [
               {
-                "name": "San Francisco Giants",
-                "price": 109
+                "name": "Detroit Tigers",
+                "price": 114
               },
               {
-                "name": "St. Louis Cardinals",
-                "price": -120
+                "name": "Toronto Blue Jays",
+                "price": -126
               }
             ]
           }
@@ -1297,19 +460,61 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "San Francisco Giants",
-                "price": 109
+                "name": "Detroit Tigers",
+                "price": 114
               },
               {
-                "name": "St. Louis Cardinals",
-                "price": -120
+                "name": "Toronto Blue Jays",
+                "price": -126
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Detroit Tigers",
+                "price": 111
+              },
+              {
+                "name": "Toronto Blue Jays",
+                "price": -130
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Detroit Tigers",
+                "price": 110
+              },
+              {
+                "name": "Toronto Blue Jays",
+                "price": -135
               }
             ]
           }
@@ -1318,18 +523,81 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
+        "last_update": "2026-09-16T18:31:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
+            "last_update": "2026-09-16T18:31:21Z",
             "outcomes": [
               {
-                "name": "San Francisco Giants",
+                "name": "Detroit Tigers",
+                "price": 109
+              },
+              {
+                "name": "Toronto Blue Jays",
+                "price": -131
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Detroit Tigers",
+                "price": 108
+              },
+              {
+                "name": "Toronto Blue Jays",
+                "price": -130
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Detroit Tigers",
                 "price": 104
               },
               {
-                "name": "St. Louis Cardinals",
+                "name": "Toronto Blue Jays",
+                "price": -124
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Detroit Tigers",
+                "price": 115
+              },
+              {
+                "name": "Toronto Blue Jays",
                 "price": -126
               }
             ]
@@ -1339,24 +607,621 @@
     ]
   },
   {
-    "id": "309bc53328fe78f477537b0dcbef3ddf",
+    "id": "4ca666086b60718790a98a4f826b262b",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-09T20:11:00Z",
-    "home_team": "San Diego Padres",
-    "away_team": "Washington Nationals",
+    "commence_time": "2026-09-16T22:41:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "Athletics",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
+                "name": "Athletics",
+                "price": 154
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -184
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 158
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -175
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 158
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -175
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 153
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -181
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 154
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -190
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 153
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -186
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 153
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -185
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 148
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Athletics",
+                "price": 152
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": -172
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c7ac677f643c3e4fb40bee1678ce2808",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-16T22:41:00Z",
+    "home_team": "Cincinnati Reds",
+    "away_team": "Los Angeles Dodgers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 180
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -215
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 189
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -211
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 189
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -211
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 180
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 178
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -219
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 180
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 195
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 182
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -210
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Reds",
+                "price": 177
+              },
+              {
+                "name": "Los Angeles Dodgers",
+                "price": -212
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6f257402794ae4eb6946433978963890",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-16T22:41:00Z",
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "Milwaukee Brewers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -130
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 110
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -118
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 107
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -118
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 107
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -126
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 107
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -125
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 105
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -126
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 104
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -128
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 107
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -136
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 114
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Milwaukee Brewers",
+                "price": -121
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 110
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f915c125897694acec2531632a1231ff",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-16T22:46:00Z",
+    "home_team": "Washington Nationals",
+    "away_team": "Philadelphia Phillies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Phillies",
                 "price": -196
               },
               {
@@ -1368,21 +1233,21 @@
         ]
       },
       {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
+                "name": "Philadelphia Phillies",
                 "price": -189
               },
               {
                 "name": "Washington Nationals",
-                "price": 159
+                "price": 170
               }
             ]
           }
@@ -1391,40 +1256,40 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
+        "last_update": "2026-09-16T18:31:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
+            "last_update": "2026-09-16T18:31:49Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
-                "price": -185
+                "name": "Philadelphia Phillies",
+                "price": -189
               },
               {
                 "name": "Washington Nationals",
-                "price": 167
+                "price": 170
               }
             ]
           }
         ]
       },
       {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
+            "last_update": "2026-09-16T18:29:46Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
-                "price": -185
+                "name": "Philadelphia Phillies",
+                "price": -190
               },
               {
                 "name": "Washington Nationals",
-                "price": 167
+                "price": 160
               }
             ]
           }
@@ -1433,78 +1298,15 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
+        "last_update": "2026-09-16T18:31:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
+            "last_update": "2026-09-16T18:31:21Z",
             "outcomes": [
               {
-                "name": "San Diego Padres",
-                "price": -193
-              },
-              {
-                "name": "Washington Nationals",
-                "price": 158
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": -190
-              },
-              {
-                "name": "Washington Nationals",
-                "price": 154
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": -193
-              },
-              {
-                "name": "Washington Nationals",
-                "price": 158
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "San Diego Padres",
-                "price": -200
+                "name": "Philadelphia Phillies",
+                "price": -199
               },
               {
                 "name": "Washington Nationals",
@@ -1513,138 +1315,23 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "e1530fe384fbce5fff1d0a587c45122e",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T20:11:00Z",
-    "home_team": "Seattle Mariners",
-    "away_team": "Texas Rangers",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": -162
-              },
-              {
-                "name": "Texas Rangers",
-                "price": 136
-              }
-            ]
-          }
-        ]
       },
       {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
+            "last_update": "2026-09-16T18:30:58Z",
             "outcomes": [
               {
-                "name": "Seattle Mariners",
-                "price": -159
+                "name": "Philadelphia Phillies",
+                "price": -200
               },
               {
-                "name": "Texas Rangers",
-                "price": 134
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": -167
-              },
-              {
-                "name": "Texas Rangers",
-                "price": 140
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": -150
-              },
-              {
-                "name": "Texas Rangers",
-                "price": 136
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": -150
-              },
-              {
-                "name": "Texas Rangers",
-                "price": 136
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Seattle Mariners",
-                "price": -162
-              },
-              {
-                "name": "Texas Rangers",
-                "price": 134
+                "name": "Washington Nationals",
+                "price": 165
               }
             ]
           }
@@ -1653,19 +1340,61 @@
       {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
+        "last_update": "2026-09-16T18:31:27Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
+            "last_update": "2026-09-16T18:31:27Z",
             "outcomes": [
               {
-                "name": "Seattle Mariners",
-                "price": -157
+                "name": "Philadelphia Phillies",
+                "price": -202
               },
               {
-                "name": "Texas Rangers",
-                "price": 131
+                "name": "Washington Nationals",
+                "price": 166
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Phillies",
+                "price": -186
+              },
+              {
+                "name": "Washington Nationals",
+                "price": 155
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Phillies",
+                "price": -188
+              },
+              {
+                "name": "Washington Nationals",
+                "price": 165
               }
             ]
           }
@@ -1674,50 +1403,29 @@
     ]
   },
   {
-    "id": "d618d7800fcb9ab31497c22ecb2120af",
+    "id": "6fe8bf504f0d29cb49e7ff60165d23c0",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-09T22:36:00Z",
-    "home_team": "Baltimore Orioles",
-    "away_team": "Cleveland Guardians",
+    "commence_time": "2026-09-16T23:11:00Z",
+    "home_team": "New York Mets",
+    "away_team": "Baltimore Orioles",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
                 "name": "Baltimore Orioles",
-                "price": -112
+                "price": 102
               },
               {
-                "name": "Cleveland Guardians",
-                "price": -104
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Baltimore Orioles",
-                "price": -110
-              },
-              {
-                "name": "Cleveland Guardians",
-                "price": -106
+                "name": "New York Mets",
+                "price": -120
               }
             ]
           }
@@ -1726,19 +1434,19 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
+        "last_update": "2026-09-16T18:31:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
+            "last_update": "2026-09-16T18:31:49Z",
             "outcomes": [
               {
                 "name": "Baltimore Orioles",
-                "price": -104
+                "price": 103
               },
               {
-                "name": "Cleveland Guardians",
-                "price": -106
+                "name": "New York Mets",
+                "price": -113
               }
             ]
           }
@@ -1747,19 +1455,40 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
                 "name": "Baltimore Orioles",
-                "price": -104
+                "price": 103
               },
               {
-                "name": "Cleveland Guardians",
-                "price": -106
+                "name": "New York Mets",
+                "price": -113
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Orioles",
+                "price": 108
+              },
+              {
+                "name": "New York Mets",
+                "price": -127
               }
             ]
           }
@@ -1768,18 +1497,332 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
+        "last_update": "2026-09-16T18:31:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
+            "last_update": "2026-09-16T18:31:21Z",
             "outcomes": [
               {
                 "name": "Baltimore Orioles",
-                "price": -111
+                "price": 100
               },
               {
-                "name": "Cleveland Guardians",
+                "name": "New York Mets",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Orioles",
+                "price": 100
+              },
+              {
+                "name": "New York Mets",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Orioles",
+                "price": 100
+              },
+              {
+                "name": "New York Mets",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Orioles",
+                "price": 106
+              },
+              {
+                "name": "New York Mets",
+                "price": -125
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:30:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:35Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Orioles",
+                "price": 103
+              },
+              {
+                "name": "New York Mets",
+                "price": -113
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "217d4f8030b8b23eb31ba36602522199",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-16T23:41:00Z",
+    "home_team": "Chicago Cubs",
+    "away_team": "Atlanta Braves",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 132
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -156
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 143
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -158
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 143
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -158
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 135
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -159
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 138
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -167
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 135
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -160
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 134
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -160
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 138
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -155
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Braves",
+                "price": 135
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": -162
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "080879497a1aa1cc2674f615e55cc797",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-17T00:05:00Z",
+    "home_team": "Texas Rangers",
+    "away_team": "Boston Red Sox",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Boston Red Sox",
+                "price": -112
+              },
+              {
+                "name": "Texas Rangers",
                 "price": -108
               }
             ]
@@ -1787,62 +1830,62 @@
         ]
       },
       {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
+            "last_update": "2026-09-16T18:31:49Z",
             "outcomes": [
               {
-                "name": "Baltimore Orioles",
-                "price": -110
-              },
-              {
-                "name": "Cleveland Guardians",
-                "price": -110
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
-            "outcomes": [
-              {
-                "name": "Baltimore Orioles",
-                "price": -104
-              },
-              {
-                "name": "Cleveland Guardians",
+                "name": "Boston Red Sox",
                 "price": -106
+              },
+              {
+                "name": "Texas Rangers",
+                "price": -104
               }
             ]
           }
         ]
       },
       {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "Baltimore Orioles",
-                "price": -113
+                "name": "Boston Red Sox",
+                "price": -106
               },
               {
-                "name": "Cleveland Guardians",
+                "name": "Texas Rangers",
+                "price": -104
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Boston Red Sox",
+                "price": -110
+              },
+              {
+                "name": "Texas Rangers",
                 "price": -107
               }
             ]
@@ -1850,21 +1893,105 @@
         ]
       },
       {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
+            "last_update": "2026-09-16T18:30:58Z",
             "outcomes": [
               {
-                "name": "Baltimore Orioles",
+                "name": "Boston Red Sox",
+                "price": -110
+              },
+              {
+                "name": "Texas Rangers",
+                "price": -110
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Boston Red Sox",
+                "price": -108
+              },
+              {
+                "name": "Texas Rangers",
+                "price": -108
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Boston Red Sox",
+                "price": -114
+              },
+              {
+                "name": "Texas Rangers",
+                "price": -106
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Boston Red Sox",
                 "price": -109
               },
               {
-                "name": "Cleveland Guardians",
-                "price": -109
+                "name": "Texas Rangers",
+                "price": -101
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Boston Red Sox",
+                "price": -103
+              },
+              {
+                "name": "Texas Rangers",
+                "price": -117
               }
             ]
           }
@@ -1873,71 +2000,29 @@
     ]
   },
   {
-    "id": "f1963b019550753f962dfa7a7fa3e781",
+    "id": "2b04077cb9adae8feab7069d48087511",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-09T22:41:00Z",
-    "home_team": "Philadelphia Phillies",
-    "away_team": "Houston Astros",
+    "commence_time": "2026-09-17T00:11:00Z",
+    "home_team": "Houston Astros",
+    "away_team": "Kansas City Royals",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
                 "name": "Houston Astros",
-                "price": 130
+                "price": -162
               },
               {
-                "name": "Philadelphia Phillies",
-                "price": -154
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Houston Astros",
-                "price": 135
-              },
-              {
-                "name": "Philadelphia Phillies",
-                "price": -159
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Houston Astros",
-                "price": 131
-              },
-              {
-                "name": "Philadelphia Phillies",
-                "price": -145
+                "name": "Kansas City Royals",
+                "price": 136
               }
             ]
           }
@@ -1946,19 +2031,61 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
                 "name": "Houston Astros",
-                "price": 131
+                "price": -160
               },
               {
-                "name": "Philadelphia Phillies",
-                "price": -145
+                "name": "Kansas City Royals",
+                "price": 145
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Houston Astros",
+                "price": -160
+              },
+              {
+                "name": "Kansas City Royals",
+                "price": 145
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Houston Astros",
+                "price": -162
+              },
+              {
+                "name": "Kansas City Royals",
+                "price": 137
               }
             ]
           }
@@ -1967,19 +2094,19 @@
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
+        "last_update": "2026-09-16T18:31:21Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
+            "last_update": "2026-09-16T18:31:21Z",
             "outcomes": [
               {
                 "name": "Houston Astros",
-                "price": 133
+                "price": -167
               },
               {
-                "name": "Philadelphia Phillies",
-                "price": -160
+                "name": "Kansas City Royals",
+                "price": 138
               }
             ]
           }
@@ -1988,18 +2115,259 @@
       {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
+        "last_update": "2026-09-16T18:30:58Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
+            "last_update": "2026-09-16T18:30:58Z",
             "outcomes": [
               {
                 "name": "Houston Astros",
-                "price": 135
+                "price": -160
               },
               {
-                "name": "Philadelphia Phillies",
+                "name": "Kansas City Royals",
+                "price": 135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Houston Astros",
+                "price": -165
+              },
+              {
+                "name": "Kansas City Royals",
+                "price": 139
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Houston Astros",
+                "price": -160
+              },
+              {
+                "name": "Kansas City Royals",
+                "price": 142
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Houston Astros",
+                "price": -159
+              },
+              {
+                "name": "Kansas City Royals",
+                "price": 133
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2a23efa19ee00d93f95ffa8a0d655216",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-17T00:41:00Z",
+    "home_team": "Colorado Rockies",
+    "away_team": "San Diego Padres",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 140
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -166
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 150
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -166
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 150
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -166
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 141
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -167
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 142
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -172
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 140
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -170
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 142
+              },
+              {
+                "name": "San Diego Padres",
+                "price": -172
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Colorado Rockies",
+                "price": 146
+              },
+              {
+                "name": "San Diego Padres",
                 "price": -165
               }
             ]
@@ -2007,20 +2375,135 @@
         ]
       },
       {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "Houston Astros",
-                "price": 130
+                "name": "Colorado Rockies",
+                "price": 150
               },
               {
-                "name": "Philadelphia Phillies",
+                "name": "San Diego Padres",
+                "price": -182
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c89612459b7a3827c4eefbe1f5627635",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2026-09-17T01:39:00Z",
+    "home_team": "Los Angeles Angels",
+    "away_team": "Seattle Mariners",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-16T18:31:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 120
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": -142
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-09-16T18:31:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:49Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 119
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": -131
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 119
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": -131
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-09-16T18:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:29:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 114
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": -134
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 120
+              },
+              {
+                "name": "Seattle Mariners",
                 "price": -145
               }
             ]
@@ -2028,868 +2511,20 @@
         ]
       },
       {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Houston Astros",
-                "price": 138
-              },
-              {
-                "name": "Philadelphia Phillies",
-                "price": -162
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Houston Astros",
-                "price": 134
-              },
-              {
-                "name": "Philadelphia Phillies",
-                "price": -160
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "8dafff0a0578488c760ea460e1e6f7b3",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T22:41:00Z",
-    "home_team": "Miami Marlins",
-    "away_team": "New York Mets",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -120
-              },
-              {
-                "name": "New York Mets",
-                "price": 102
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -121
-              },
-              {
-                "name": "New York Mets",
-                "price": 103
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -117
-              },
-              {
-                "name": "New York Mets",
-                "price": 106
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -117
-              },
-              {
-                "name": "New York Mets",
-                "price": 106
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -123
-              },
-              {
-                "name": "New York Mets",
-                "price": 102
-              }
-            ]
-          }
-        ]
-      },
-      {
         "key": "betmgm",
         "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
+        "last_update": "2026-09-16T18:30:58Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
+            "last_update": "2026-09-16T18:30:58Z",
             "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -120
-              },
-              {
-                "name": "New York Mets",
-                "price": 100
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -117
-              },
-              {
-                "name": "New York Mets",
-                "price": 107
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -124
-              },
-              {
-                "name": "New York Mets",
-                "price": 104
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Miami Marlins",
-                "price": -120
-              },
-              {
-                "name": "New York Mets",
-                "price": 102
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c8513bd1ec6dd659d64e9c17052f4c9d",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T22:46:00Z",
-    "home_team": "Boston Red Sox",
-    "away_team": "Los Angeles Angels",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -210
-              },
               {
                 "name": "Los Angeles Angels",
-                "price": 176
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -206
+                "price": 115
               },
               {
-                "name": "Los Angeles Angels",
-                "price": 173
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -202
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 182
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -202
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 182
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -217
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 177
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -220
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 180
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -202
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 176
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -216
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 176
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Boston Red Sox",
-                "price": -210
-              },
-              {
-                "name": "Los Angeles Angels",
-                "price": 175
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "163a7ada5c294169bddfad332af498ef",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T23:06:00Z",
-    "home_team": "New York Yankees",
-    "away_team": "Colorado Rockies",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 200
-              },
-              {
-                "name": "New York Yankees",
-                "price": -245
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 192
-              },
-              {
-                "name": "New York Yankees",
-                "price": -230
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 201
-              },
-              {
-                "name": "New York Yankees",
-                "price": -249
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 206
-              },
-              {
-                "name": "New York Yankees",
-                "price": -230
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 206
-              },
-              {
-                "name": "New York Yankees",
-                "price": -230
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 198
-              },
-              {
-                "name": "New York Yankees",
-                "price": -230
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 200
-              },
-              {
-                "name": "New York Yankees",
-                "price": -250
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 200
-              },
-              {
-                "name": "New York Yankees",
-                "price": -245
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Colorado Rockies",
-                "price": 205
-              },
-              {
-                "name": "New York Yankees",
-                "price": -250
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "cd4dc96755ca32cc907956934a4f2fcb",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T23:16:00Z",
-    "home_team": "Atlanta Braves",
-    "away_team": "Tampa Bay Rays",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Atlanta Braves",
-                "price": -122
-              },
-              {
-                "name": "Tampa Bay Rays",
-                "price": 104
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Atlanta Braves",
-                "price": -123
-              },
-              {
-                "name": "Tampa Bay Rays",
-                "price": 105
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Atlanta Braves",
-                "price": -126
-              },
-              {
-                "name": "Tampa Bay Rays",
-                "price": 104
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Atlanta Braves",
-                "price": -125
-              },
-              {
-                "name": "Tampa Bay Rays",
-                "price": 105
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Atlanta Braves",
-                "price": -122
-              },
-              {
-                "name": "Tampa Bay Rays",
-                "price": 102
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "df53cc747b6ef1e7688d8595a1d6aec6",
-    "sport_key": "baseball_mlb",
-    "sport_title": "MLB",
-    "commence_time": "2026-09-09T23:41:00Z",
-    "home_team": "Milwaukee Brewers",
-    "away_team": "Chicago Cubs",
-    "bookmakers": [
-      {
-        "key": "fanduel",
-        "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 116
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": -134
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "mybookieag",
-        "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 114
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": -134
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 116
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": -128
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "lowvig",
-        "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 116
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": -128
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 112
-              },
-              {
-                "name": "Milwaukee Brewers",
+                "name": "Seattle Mariners",
                 "price": -135
               }
             ]
@@ -2897,115 +2532,94 @@
         ]
       },
       {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 110
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": -135
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betus",
-        "title": "BetUS",
-        "last_update": "2026-09-09T02:17:58Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:58Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 117
-              },
-              {
-                "name": "Milwaukee Brewers",
-                "price": -128
-              }
-            ]
-          }
-        ]
-      },
-      {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
+        "last_update": "2026-09-16T18:31:27Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
+            "last_update": "2026-09-16T18:31:27Z",
             "outcomes": [
               {
-                "name": "Chicago Cubs",
-                "price": 113
+                "name": "Los Angeles Angels",
+                "price": 116
               },
               {
-                "name": "Milwaukee Brewers",
-                "price": -135
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
-            "outcomes": [
-              {
-                "name": "Chicago Cubs",
-                "price": 117
-              },
-              {
-                "name": "Milwaukee Brewers",
+                "name": "Seattle Mariners",
                 "price": -139
               }
             ]
           }
         ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 112
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": -134
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Angels",
+                "price": 121
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": -133
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "2c0c5fa6dfe40dcd60cf3217261fb2d9",
+    "id": "920a4bddf80a6d6579d31ead408e06d0",
     "sport_key": "baseball_mlb",
     "sport_title": "MLB",
-    "commence_time": "2026-09-10T02:11:00Z",
-    "home_team": "Los Angeles Dodgers",
-    "away_team": "Cincinnati Reds",
+    "commence_time": "2026-09-17T01:41:00Z",
+    "home_team": "Arizona Diamondbacks",
+    "away_team": "Miami Marlins",
     "bookmakers": [
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-09-09T02:18:29Z",
+        "last_update": "2026-09-16T18:31:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:29Z",
+            "last_update": "2026-09-16T18:31:48Z",
             "outcomes": [
               {
-                "name": "Cincinnati Reds",
-                "price": 240
+                "name": "Arizona Diamondbacks",
+                "price": -134
               },
               {
-                "name": "Los Angeles Dodgers",
-                "price": -295
+                "name": "Miami Marlins",
+                "price": 114
               }
             ]
           }
@@ -3014,19 +2628,19 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-09-09T02:17:27Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:27Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "Cincinnati Reds",
-                "price": 240
+                "name": "Arizona Diamondbacks",
+                "price": -131
               },
               {
-                "name": "Los Angeles Dodgers",
-                "price": -270
+                "name": "Miami Marlins",
+                "price": 119
               }
             ]
           }
@@ -3035,82 +2649,19 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-09-09T02:18:46Z",
+        "last_update": "2026-09-16T18:31:49Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:46Z",
+            "last_update": "2026-09-16T18:31:49Z",
             "outcomes": [
               {
-                "name": "Cincinnati Reds",
-                "price": 240
+                "name": "Arizona Diamondbacks",
+                "price": -131
               },
               {
-                "name": "Los Angeles Dodgers",
-                "price": -270
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "draftkings",
-        "title": "DraftKings",
-        "last_update": "2026-09-09T02:18:24Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:24Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 233
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -292
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-09-09T02:17:59Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:17:59Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 230
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -285
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "bovada",
-        "title": "Bovada",
-        "last_update": "2026-09-09T02:18:49Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-09-09T02:18:49Z",
-            "outcomes": [
-              {
-                "name": "Cincinnati Reds",
-                "price": 230
-              },
-              {
-                "name": "Los Angeles Dodgers",
-                "price": -290
+                "name": "Miami Marlins",
+                "price": 119
               }
             ]
           }
@@ -3119,19 +2670,82 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-09-09T02:17:02Z",
+        "last_update": "2026-09-16T18:29:46Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:17:02Z",
+            "last_update": "2026-09-16T18:29:46Z",
             "outcomes": [
               {
-                "name": "Cincinnati Reds",
-                "price": 216
+                "name": "Arizona Diamondbacks",
+                "price": -136
               },
               {
-                "name": "Los Angeles Dodgers",
-                "price": -265
+                "name": "Miami Marlins",
+                "price": 116
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-09-16T18:31:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Diamondbacks",
+                "price": -137
+              },
+              {
+                "name": "Miami Marlins",
+                "price": 113
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-09-16T18:30:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:30:58Z",
+            "outcomes": [
+              {
+                "name": "Arizona Diamondbacks",
+                "price": -135
+              },
+              {
+                "name": "Miami Marlins",
+                "price": 115
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-09-16T18:31:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:27Z",
+            "outcomes": [
+              {
+                "name": "Arizona Diamondbacks",
+                "price": -138
+              },
+              {
+                "name": "Miami Marlins",
+                "price": 115
               }
             ]
           }
@@ -3140,19 +2754,40 @@
       {
         "key": "betrivers",
         "title": "BetRivers",
-        "last_update": "2026-09-09T02:18:44Z",
+        "last_update": "2026-09-16T18:31:47Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-09-09T02:18:44Z",
+            "last_update": "2026-09-16T18:31:47Z",
             "outcomes": [
               {
-                "name": "Cincinnati Reds",
-                "price": 230
+                "name": "Arizona Diamondbacks",
+                "price": -148
               },
               {
-                "name": "Los Angeles Dodgers",
-                "price": -286
+                "name": "Miami Marlins",
+                "price": 123
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-09-16T18:31:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-09-16T18:31:47Z",
+            "outcomes": [
+              {
+                "name": "Arizona Diamondbacks",
+                "price": -131
+              },
+              {
+                "name": "Miami Marlins",
+                "price": 119
               }
             ]
           }

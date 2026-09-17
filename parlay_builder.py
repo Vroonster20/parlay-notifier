@@ -44,6 +44,6 @@ def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-150):
         if len(final_picks) < min_legs:
             continue
 
-        top_sport[sport].append(final_picks)
+        top_sport[sport] = final_picks
 
     return top_sport

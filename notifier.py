@@ -13,15 +13,15 @@ sports = {
 
 def send_notification(parlay, title="Today's Safe Parlays!"):
     final_message = ""
-    for sport in parlay:
-        sport_title = sports.get(sport)
-        if not parlay[sport]:
-            message = f"{sport_title}\nNo qualifying games today."
-        else:            
+    if not parlay:
+        final_message = "No qualifying games today."
+    else:
+        for sport in parlay:
+            sport_title = sports.get(sport)            
             lines = [f"-\u2003{g['team']} @ {g['price']}" for g in parlay[sport]]
             message = (sport_title + "\n" + "\n".join(lines))
 
-        final_message += message + "\n\n"
+            final_message += message + "\n\n"
 
     topic = os.environ.get("NTFY_TOPIC")
     url = f"https://ntfy.sh/{topic}"

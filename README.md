@@ -69,4 +69,6 @@ manual toggling required.
 
 ## Roadmap
 
+- Add a stat‑tracking feature/website that logs each day’s picks and parlays, showing win/loss history, per‑sport accuracy, average parlay odds, and long‑term performance metrics.
+
 - Build a machine learning model trained on historical odds, actual outcomes, and other contextual data (team stats, injuries, etc.) to generate predictions and parlays from learned patterns rather than current market odds alone.

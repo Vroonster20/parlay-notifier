@@ -3,7 +3,7 @@ import json
 import requests
 from pathlib import Path
 
-def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-150):
+def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-120, min_favorite_price=-500):
     top_sport = {}
 
     for sport, sport_games in games.items():
@@ -22,7 +22,8 @@ def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-150):
                 else:
                     continue
 
-                if favorite_price > max_favorite_price:
+                
+                if favorite_price < min_favorite_price or favorite_price > max_favorite_price:
                     continue
 
                 picks.append({

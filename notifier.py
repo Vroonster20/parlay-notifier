@@ -9,6 +9,7 @@ sports = {
     "americanfootball_nfl": "🏈 FOOTBALL PARLAY",
     "basketball_nba": "🏀 BASKETBALL PARLAY",
     "icehockey_nhl": "🏒 HOCKEY PARLAY",
+    "americanfootball_ncaaf": "🏈 COLLEGE FOOTBALL PARLAY"
 }
 
 def send_notification(parlay, title="Today's Safe Parlays!"):

@@ -1,0 +1,976 @@
+[
+  {
+    "id": "a493efd6ef737f676a45aacc0eaf7be8",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2026-10-23T23:00:00Z",
+    "home_team": "Virginia Cavaliers",
+    "away_team": "Duke Blue Devils",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-10-23T20:18:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:32Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 114
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-10-23T20:18:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:59Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 110
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-10-23T20:19:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:00Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 115
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -138
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-10-23T20:18:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:14Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 115
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -141
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 114
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -134
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 114
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -134
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-10-23T20:19:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:05Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 110
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-10-23T20:18:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:09Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 110
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -130
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-10-23T20:16:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:16:28Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": 110
+              },
+              {
+                "name": "Virginia Cavaliers",
+                "price": -130
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c3dd6e7e07382aa22aca6458aea01f2d",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2026-10-23T23:00:00Z",
+    "home_team": "UConn Huskies",
+    "away_team": "UMass Minutemen",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-10-23T20:19:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:00Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -580
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 420
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-10-23T20:18:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:32Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -550
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 410
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-10-23T20:18:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:14Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -530
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 370
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -515
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 393
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -515
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 393
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-10-23T20:19:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:05Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -525
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-10-23T20:18:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:09Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -515
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-10-23T20:16:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:16:28Z",
+            "outcomes": [
+              {
+                "name": "UConn Huskies",
+                "price": -550
+              },
+              {
+                "name": "UMass Minutemen",
+                "price": 390
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2e2ae6a759029288a93488e0805aa9f3",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2026-10-24T00:30:00Z",
+    "home_team": "Tulsa Golden Hurricane",
+    "away_team": "Army Black Knights",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-10-23T20:19:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:00Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 100
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-10-23T20:18:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:32Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 100
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-10-23T20:18:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:14Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": -104
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 100
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 100
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-10-23T20:19:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:05Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": -102
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -115
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-10-23T20:18:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:59Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 103
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -126
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-10-23T20:18:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:09Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 100
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-10-23T20:16:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:16:28Z",
+            "outcomes": [
+              {
+                "name": "Army Black Knights",
+                "price": 100
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1612c641ab70fd57963596255b9cb69c",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2026-10-24T01:00:00Z",
+    "home_team": "Wyoming Cowboys",
+    "away_team": "Air Force Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-10-23T20:19:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:00Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -225
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 184
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-10-23T20:18:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:32Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -218
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-10-23T20:18:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:14Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -245
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 190
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -220
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 186
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -220
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 186
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-10-23T20:19:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:05Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -220
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-10-23T20:18:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:59Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -242
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 193
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-10-23T20:18:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:09Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -210
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-10-23T20:16:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:16:28Z",
+            "outcomes": [
+              {
+                "name": "Air Force Falcons",
+                "price": -220
+              },
+              {
+                "name": "Wyoming Cowboys",
+                "price": 180
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "027c66400a752f72c7a21ce15a3b1743",
+    "sport_key": "americanfootball_ncaaf",
+    "sport_title": "NCAAF",
+    "commence_time": "2026-10-24T02:30:00Z",
+    "home_team": "Stanford Cardinal",
+    "away_team": "NC State Wolfpack",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-10-23T20:19:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:00Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -300
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-10-23T20:18:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:32Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -305
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 245
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-10-23T20:18:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:14Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -295
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 225
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -300
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 245
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-10-23T20:18:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:33Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -300
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 245
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-10-23T20:19:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:19:05Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -295
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-10-23T20:18:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:59Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -319
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 246
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-10-23T20:18:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:18:09Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -300
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 250
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-10-23T20:16:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-23T20:16:28Z",
+            "outcomes": [
+              {
+                "name": "NC State Wolfpack",
+                "price": -300
+              },
+              {
+                "name": "Stanford Cardinal",
+                "price": 250
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

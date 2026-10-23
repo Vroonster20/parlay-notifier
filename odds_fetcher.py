@@ -5,10 +5,20 @@ from pathlib import Path
 from dotenv import load_dotenv
 from datetime import datetime, timezone, timedelta, date
 import statistics
+from zoneinfo import ZoneInfo
 
 load_dotenv()
 SNAPSHOT_PATH = "snapshot_odds.json"
 SPORTS_PATH = "sports.json"
+
+LOCAL_TZ = ZoneInfo("America/Chicago")
+API_TIME_FMT = "%Y-%m-%dT%H:%M:%SZ"
+
+def _today_window_utc():
+    now_utc = datetime.now(timezone.utc)
+    local_now = now_utc.astimezone(LOCAL_TZ)
+    end_local = local_now.replace(hour=23, minute=59, second=59, microsecond=0)
+    return now_utc, end_local.astimezone(timezone.utc)
 
 def fetch_odds():
     run_mode = os.environ.get("RUN_MODE", "snapshot")
@@ -25,11 +35,7 @@ def fetch_odds():
 def flatten_games(raw_games):
     flat = {}
 
-    now = datetime.now(timezone.utc)
-    local_offset = timedelta(hours=-5)
-    local_now = now + local_offset
-    end_of_today_local = local_now.replace(hour=23, minute=59, second=59, microsecond=0)
-    end_of_today_utc = end_of_today_local - local_offset
+    now, end_of_today_utc = _today_window_utc()
 
     for game in raw_games:
         commence_time = datetime.fromisoformat(game["commence_time"]. replace("Z", "+00:00"))
@@ -108,6 +114,7 @@ def _fetch_live_odds():
         'americanfootball_nfl', 
         'basketball_nba', 
         'icehockey_nhl',
+        'americanfootball_ncaaf',
         #'basketball_ncaab',
     }
 
@@ -118,57 +125,62 @@ def _fetch_live_odds():
         "oddsFormat": format,
     }
 
+    probe_month_day = {
+        "baseball_mlb": (3, 1),
+        "americanfootball_nfl": (8, 15),
+        "basketball_nba": (9, 15),
+        "icehockey_nhl": (9, 1),
+        "americanfootball_ncaaf": (7, 20),
+    }
+    end_month_day = {
+        "baseball_mlb": (11, 1),
+        "americanfootball_nfl": (3, 15),
+        "basketball_nba": (7, 15),
+        "icehockey_nhl": (5, 1),
+        "americanfootball_ncaaf": (2, 20),
+    }
+
+    today = datetime.now(timezone.utc).date()
+    window_start, window_end = _today_window_utc()
+    window = {
+        "commenceTimeFrom": window_start.strftime(API_TIME_FMT),
+        "commenceTimeTo": window_end.strftime(API_TIME_FMT),
+    }
+
     for key in selected_sports:
-        today = datetime.now(timezone.utc).date()
-        should_call = False
-
-        probe_month_day = {
-            "baseball_mlb": (3, 1),
-            "americanfootball_nfl": (8, 15),
-            "basketball_nba": (9, 15),
-            "icehockey_nhl": (9, 1),
-        }
-        end_month_day = {
-            "baseball_mlb": (11, 1),
-            "americanfootball_nfl": (3, 15),
-            "basketball_nba": (7, 15),
-            "icehockey_nhl": (5, 1),
-        }
-        probe_dates = {k: date(today.year, m, d) for k, (m, d) in probe_month_day.items()}
-        probe = probe_dates.get(key, today)
-        end_dates = {k: date(today.year, m, d) for k, (m, d) in end_month_day.items()}
-        end = end_dates.get(key, today)
-
-        file_path = os.path.join("sports_odds", key, "snapshot_odds.json")
+        m, d = probe_month_day.get(key, (today.month, today.day))
+        probe = date(today.year, m, d)
+        m, d = end_month_day.get(key, (today.month, today.day))
+        end = date(today.year, m, d)
 
         if not in_season(today, probe, end):
             continue
 
-        if not os.path.exists(file_path):
-            if today >= probe_dates.get(key, today):
-                should_call = True
-        else:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                saved_data = json.load(f)
-            if saved_data:
-                start_date = datetime.fromisoformat(saved_data[0]["commence_time"].replace("Z", "+00:00")).date()
-                if today >= start_date - timedelta(days=3):
-                    should_call = True
+        # Free check: any games today?
+        events_resp = requests.get(
+            f"{BASE_URL}/sports/{key}/events",
+            params={"apiKey": api_key, **window},
+        )
+        events_resp.raise_for_status()
 
-        if should_call:
-            SNAPSHOT_PATH = f"sports_odds/{key}/snapshot_odds.json"
-            response = requests.get(f"{BASE_URL}/sports/{key}/odds", params=params)                           
-            response.raise_for_status()
+        if not events_resp.json():
+            print(f"[{key}] no games today, skipping odds call")
+            continue
 
-            print(f"[{key}] Last call cost:", response.headers.get("x-requests-last"))
-                                        
-            data = response.json()
-            if SNAPSHOT_PATH:
-                path = Path(SNAPSHOT_PATH)
-                path.parent.mkdir(parents=True, exist_ok=True)
-                with path.open("w", encoding="utf-8") as f:
-                    json.dump(data, f, indent=2)
-            all_games.extend(data)
+        # Paid call: 1 credit with h2h + us
+        response = requests.get(
+            f"{BASE_URL}/sports/{key}/odds",
+            params={**params, **window},
+        )
+        response.raise_for_status()
+        print(f"[{key}] odds call cost:", response.headers.get("x-requests-last"))
+
+        data = response.json()
+        path = Path(f"sports_odds/{key}/snapshot_odds.json")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        all_games.extend(data)
 
     print("\nRemaining:", response.headers.get("x-requests-remaining"))
     print("Used:", response.headers.get("x-requests-used"))

@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 sports = {
-    "baseball_mlb": "⚾ BASEBALL PARLAY",
-    "americanfootball_nfl": "🏈 FOOTBALL PARLAY",
-    "basketball_nba": "🏀 BASKETBALL PARLAY",
-    "icehockey_nhl": "🏒 HOCKEY PARLAY",
-    "americanfootball_ncaaf": "🏈 COLLEGE FOOTBALL PARLAY"
+    "baseball_mlb": "⚾ MLB PARLAY",
+    "americanfootball_nfl": "🏈 NFL PARLAY",
+    "basketball_nba": "🏀 NBA PARLAY",
+    "icehockey_nhl": "🏒 NHL PARLAY",
+    "americanfootball_ncaaf": "🏈 CFB PARLAY"
 }
 
 def send_notification(parlay, title="Today's Safe Parlays!"):

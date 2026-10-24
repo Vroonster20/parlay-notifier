@@ -3,7 +3,7 @@ import json
 import requests
 from pathlib import Path
 
-def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-120, min_favorite_price=-500):
+def build_safe_parlay(games, min_legs=4, max_legs=4, max_favorite_price=-120, min_favorite_price=-500):
     top_sport = {}
 
     for sport, sport_games in games.items():
@@ -39,7 +39,7 @@ def build_safe_parlay(games, min_legs=3, max_legs=4, max_favorite_price=-120, mi
             except Exception as e:
                 print(f"Unexpected error - {e}")
 
-        top_by_price = sorted(picks, key=lambda item: item["price"])[:max_legs]
+        top_by_price = sorted(picks, key=lambda item: item["price"])[:min_legs]
         final_picks = sorted(top_by_price, key=lambda item: item["idx"])
 
         if len(final_picks) < min_legs:

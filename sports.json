@@ -24,14 +24,6 @@
     "has_outrights": true
   },
   {
-    "key": "americanfootball_ncaaf_fcs",
-    "group": "American Football",
-    "title": "NCAAF FCS",
-    "description": "US College Football, FCS",
-    "active": true,
-    "has_outrights": false
-  },
-  {
     "key": "americanfootball_nfl",
     "group": "American Football",
     "title": "NFL",
@@ -48,6 +40,14 @@
     "has_outrights": true
   },
   {
+    "key": "aussierules_afl",
+    "group": "Aussie Rules",
+    "title": "AFL",
+    "description": "Aussie Football",
+    "active": true,
+    "has_outrights": false
+  },
+  {
     "key": "aussierules_aflw",
     "group": "Aussie Rules",
     "title": "AFL Women's",
@@ -56,20 +56,12 @@
     "has_outrights": false
   },
   {
-    "key": "baseball_mlb",
+    "key": "baseball_kbo",
     "group": "Baseball",
-    "title": "MLB",
-    "description": "Major League Baseball",
+    "title": "KBO",
+    "description": "KBO League",
     "active": true,
     "has_outrights": false
-  },
-  {
-    "key": "baseball_mlb_world_series_winner",
-    "group": "Baseball",
-    "title": "MLB World Series Winner",
-    "description": "World Series Winner 2026",
-    "active": true,
-    "has_outrights": true
   },
   {
     "key": "basketball_euroleague",
@@ -104,6 +96,14 @@
     "has_outrights": false
   },
   {
+    "key": "basketball_ncaab",
+    "group": "Basketball",
+    "title": "NCAAB",
+    "description": "US College Basketball",
+    "active": true,
+    "has_outrights": false
+  },
+  {
     "key": "basketball_ncaab_championship_winner",
     "group": "Basketball",
     "title": "NCAAB Championship Winner",
@@ -112,10 +112,10 @@
     "has_outrights": true
   },
   {
-    "key": "basketball_wnba",
+    "key": "basketball_wncaab",
     "group": "Basketball",
-    "title": "WNBA",
-    "description": "US Basketball",
+    "title": "WNCAAB",
+    "description": "US Women's College Basketball",
     "active": true,
     "has_outrights": false
   },
@@ -124,14 +124,6 @@
     "group": "Boxing",
     "title": "Boxing",
     "description": "Boxing Bouts",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "cricket_international_t20",
-    "group": "Cricket",
-    "title": "International Twenty20",
-    "description": "International Twenty20",
     "active": true,
     "has_outrights": false
   },
@@ -184,34 +176,10 @@
     "has_outrights": true
   },
   {
-    "key": "handball_germany_bundesliga",
-    "group": "Handball",
-    "title": "Handball-Bundesliga",
-    "description": "German HBL",
-    "active": true,
-    "has_outrights": false
-  },
-  {
     "key": "icehockey_ahl",
     "group": "Ice Hockey",
     "title": "AHL",
     "description": "American Hockey League",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "icehockey_liiga",
-    "group": "Ice Hockey",
-    "title": "Liiga",
-    "description": "Finnish SM League",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "icehockey_mestis",
-    "group": "Ice Hockey",
-    "title": "Mestis",
-    "description": "Finnish Mestis League",
     "active": true,
     "has_outrights": false
   },
@@ -230,14 +198,6 @@
     "description": "Stanley Cup Winner 2026/2027",
     "active": true,
     "has_outrights": true
-  },
-  {
-    "key": "icehockey_sweden_allsvenskan",
-    "group": "Ice Hockey",
-    "title": "HockeyAllsvenskan",
-    "description": "Swedish Hockey Allsvenskan",
-    "active": true,
-    "has_outrights": false
   },
   {
     "key": "icehockey_sweden_hockey_league",
@@ -392,6 +352,14 @@
     "has_outrights": false
   },
   {
+    "key": "soccer_fa_cup",
+    "group": "Soccer",
+    "title": "FA Cup",
+    "description": "Football Association Challenge Cup",
+    "active": true,
+    "has_outrights": false
+  },
+  {
     "key": "soccer_finland_veikkausliiga",
     "group": "Soccer",
     "title": "Veikkausliiga - Finland",
@@ -427,14 +395,6 @@
     "key": "soccer_germany_bundesliga2",
     "group": "Soccer",
     "title": "Bundesliga 2 - Germany",
-    "description": "German Soccer",
-    "active": true,
-    "has_outrights": false
-  },
-  {
-    "key": "soccer_germany_bundesliga_women",
-    "group": "Soccer",
-    "title": "Frauen-Bundesliga",
     "description": "German Soccer",
     "active": true,
     "has_outrights": false
@@ -496,14 +456,6 @@
     "has_outrights": false
   },
   {
-    "key": "soccer_league_of_ireland",
-    "group": "Soccer",
-    "title": "League of Ireland",
-    "description": "Airtricity League Premier Division",
-    "active": true,
-    "has_outrights": false
-  },
-  {
     "key": "soccer_mexico_ligamx",
     "group": "Soccer",
     "title": "Liga MX",
@@ -556,6 +508,14 @@
     "group": "Soccer",
     "title": "Saudi Pro League",
     "description": "Saudi Soccer",
+    "active": true,
+    "has_outrights": false
+  },
+  {
+    "key": "soccer_spain_copa_del_rey",
+    "group": "Soccer",
+    "title": "Copa del Rey",
+    "description": "Spanish Soccer",
     "active": true,
     "has_outrights": false
   },
@@ -624,6 +584,14 @@
     "has_outrights": false
   },
   {
+    "key": "soccer_uefa_europa_conference_league",
+    "group": "Soccer",
+    "title": "UEFA Europa Conference League",
+    "description": "UEFA Europa Conference League",
+    "active": true,
+    "has_outrights": false
+  },
+  {
     "key": "soccer_uefa_europa_league",
     "group": "Soccer",
     "title": "UEFA Europa League",
@@ -648,10 +616,10 @@
     "has_outrights": false
   },
   {
-    "key": "tennis_wta_ningbo_open",
+    "key": "tennis_atp_paris_masters",
     "group": "Tennis",
-    "title": "WTA Ningbo Open",
-    "description": "Women's Singles",
+    "title": "ATP Paris Masters",
+    "description": "Men's Singles",
     "active": true,
     "has_outrights": false
   }

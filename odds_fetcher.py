@@ -55,6 +55,7 @@ def flatten_games(raw_games):
                 "home_price": home_price,
                 "away_price": away_price,
                 "commence_time": commence_time.isoformat(),
+                "event_id": game["id"],
             }
 
             if sport not in flat:

@@ -1,49 +1,28 @@
 [
   {
-    "id": "db9d82d62d8f222bfd835100662c6ac6",
+    "id": "01847028adef1eda81745cd36f240fc5",
     "sport_key": "icehockey_nhl",
     "sport_title": "NHL",
-    "commence_time": "2026-10-24T00:10:00Z",
-    "home_team": "Chicago Blackhawks",
-    "away_team": "Montr\u00e9al Canadiens",
+    "commence_time": "2026-11-03T00:10:00Z",
+    "home_team": "Boston Bruins",
+    "away_team": "Vegas Golden Knights",
     "bookmakers": [
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-10-23T20:18:54Z",
+        "last_update": "2026-11-02T20:19:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:18:53Z",
+            "last_update": "2026-11-02T20:19:33Z",
             "outcomes": [
               {
-                "name": "Chicago Blackhawks",
-                "price": 142
+                "name": "Boston Bruins",
+                "price": 102
               },
               {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -170
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betonlineag",
-        "title": "BetOnline.ag",
-        "last_update": "2026-10-23T20:17:35Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-10-23T20:17:35Z",
-            "outcomes": [
-              {
-                "name": "Chicago Blackhawks",
-                "price": 142
-              },
-              {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -162
+                "name": "Vegas Golden Knights",
+                "price": -122
               }
             ]
           }
@@ -52,19 +31,40 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-10-23T20:19:20Z",
+        "last_update": "2026-11-02T20:20:23Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:19:20Z",
+            "last_update": "2026-11-02T20:20:23Z",
             "outcomes": [
               {
-                "name": "Chicago Blackhawks",
-                "price": 142
+                "name": "Boston Bruins",
+                "price": 100
               },
               {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -162
+                "name": "Vegas Golden Knights",
+                "price": -114
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Boston Bruins",
+                "price": 100
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": -114
               }
             ]
           }
@@ -73,61 +73,19 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-10-23T20:19:22Z",
+        "last_update": "2026-11-02T20:20:25Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:19:22Z",
+            "last_update": "2026-11-02T20:20:25Z",
             "outcomes": [
               {
-                "name": "Chicago Blackhawks",
-                "price": 130
+                "name": "Boston Bruins",
+                "price": -104
               },
               {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -156
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-10-23T20:17:10Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-10-23T20:17:10Z",
-            "outcomes": [
-              {
-                "name": "Chicago Blackhawks",
-                "price": 135
-              },
-              {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -160
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-10-23T20:18:05Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-10-23T20:18:05Z",
-            "outcomes": [
-              {
-                "name": "Chicago Blackhawks",
-                "price": 133
-              },
-              {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -159
+                "name": "Vegas Golden Knights",
+                "price": -115
               }
             ]
           }
@@ -136,19 +94,40 @@
       {
         "key": "betus",
         "title": "BetUS",
-        "last_update": "2026-10-23T20:18:54Z",
+        "last_update": "2026-11-02T20:20:22Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:18:54Z",
+            "last_update": "2026-11-02T20:20:22Z",
             "outcomes": [
               {
-                "name": "Chicago Blackhawks",
-                "price": 142
+                "name": "Boston Bruins",
+                "price": 100
               },
               {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -165
+                "name": "Vegas Golden Knights",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-11-02T20:20:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:24Z",
+            "outcomes": [
+              {
+                "name": "Boston Bruins",
+                "price": -105
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": -114
               }
             ]
           }
@@ -157,19 +136,40 @@
       {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2026-10-23T20:17:41Z",
+        "last_update": "2026-11-02T20:18:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:17:40Z",
+            "last_update": "2026-11-02T20:18:48Z",
             "outcomes": [
               {
-                "name": "Chicago Blackhawks",
-                "price": 137
+                "name": "Boston Bruins",
+                "price": -108
               },
               {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -163
+                "name": "Vegas Golden Knights",
+                "price": -112
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-11-02T20:20:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:23Z",
+            "outcomes": [
+              {
+                "name": "Boston Bruins",
+                "price": 100
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": -120
               }
             ]
           }
@@ -178,19 +178,19 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-10-23T20:18:57Z",
+        "last_update": "2026-11-02T20:20:22Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:18:57Z",
+            "last_update": "2026-11-02T20:20:22Z",
             "outcomes": [
               {
-                "name": "Chicago Blackhawks",
-                "price": 138
+                "name": "Boston Bruins",
+                "price": -107
               },
               {
-                "name": "Montr\u00e9al Canadiens",
-                "price": -170
+                "name": "Vegas Golden Knights",
+                "price": -115
               }
             ]
           }
@@ -199,29 +199,29 @@
     ]
   },
   {
-    "id": "b7e4d8193096703065db318c2813168f",
+    "id": "d5983dfd10f862eb0e497aa9a9e412f3",
     "sport_key": "icehockey_nhl",
     "sport_title": "NHL",
-    "commence_time": "2026-10-24T01:10:00Z",
-    "home_team": "Colorado Avalanche",
-    "away_team": "Tampa Bay Lightning",
+    "commence_time": "2026-11-03T00:10:00Z",
+    "home_team": "Florida Panthers",
+    "away_team": "Detroit Red Wings",
     "bookmakers": [
       {
         "key": "draftkings",
         "title": "DraftKings",
-        "last_update": "2026-10-23T20:18:54Z",
+        "last_update": "2026-11-02T20:19:33Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:18:53Z",
+            "last_update": "2026-11-02T20:19:33Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -125
+                "name": "Detroit Red Wings",
+                "price": 154
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": 105
+                "name": "Florida Panthers",
+                "price": -185
               }
             ]
           }
@@ -230,19 +230,19 @@
       {
         "key": "lowvig",
         "title": "LowVig.ag",
-        "last_update": "2026-10-23T20:19:20Z",
+        "last_update": "2026-11-02T20:20:23Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:19:20Z",
+            "last_update": "2026-11-02T20:20:23Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -115
+                "name": "Detroit Red Wings",
+                "price": 159
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": 101
+                "name": "Florida Panthers",
+                "price": -181
               }
             ]
           }
@@ -251,19 +251,19 @@
       {
         "key": "betonlineag",
         "title": "BetOnline.ag",
-        "last_update": "2026-10-23T20:17:35Z",
+        "last_update": "2026-11-02T20:20:22Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:17:35Z",
+            "last_update": "2026-11-02T20:20:22Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -115
+                "name": "Detroit Red Wings",
+                "price": 159
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": 101
+                "name": "Florida Panthers",
+                "price": -181
               }
             ]
           }
@@ -272,61 +272,19 @@
       {
         "key": "fanduel",
         "title": "FanDuel",
-        "last_update": "2026-10-23T20:19:22Z",
+        "last_update": "2026-11-02T20:20:25Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:19:22Z",
+            "last_update": "2026-11-02T20:20:25Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -122
+                "name": "Detroit Red Wings",
+                "price": 152
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": 102
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betmgm",
-        "title": "BetMGM",
-        "last_update": "2026-10-23T20:17:10Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-10-23T20:17:10Z",
-            "outcomes": [
-              {
-                "name": "Colorado Avalanche",
-                "price": -125
-              },
-              {
-                "name": "Tampa Bay Lightning",
-                "price": 105
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "betrivers",
-        "title": "BetRivers",
-        "last_update": "2026-10-23T20:18:05Z",
-        "markets": [
-          {
-            "key": "h2h",
-            "last_update": "2026-10-23T20:18:05Z",
-            "outcomes": [
-              {
-                "name": "Colorado Avalanche",
-                "price": -129
-              },
-              {
-                "name": "Tampa Bay Lightning",
-                "price": 108
+                "name": "Florida Panthers",
+                "price": -184
               }
             ]
           }
@@ -335,19 +293,40 @@
       {
         "key": "betus",
         "title": "BetUS",
-        "last_update": "2026-10-23T20:18:54Z",
+        "last_update": "2026-11-02T20:20:22Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:18:54Z",
+            "last_update": "2026-11-02T20:20:22Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -115
+                "name": "Detroit Red Wings",
+                "price": 155
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": -105
+                "name": "Florida Panthers",
+                "price": -180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-11-02T20:20:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:24Z",
+            "outcomes": [
+              {
+                "name": "Detroit Red Wings",
+                "price": 160
+              },
+              {
+                "name": "Florida Panthers",
+                "price": -190
               }
             ]
           }
@@ -356,19 +335,40 @@
       {
         "key": "bovada",
         "title": "Bovada",
-        "last_update": "2026-10-23T20:17:41Z",
+        "last_update": "2026-11-02T20:18:48Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:17:40Z",
+            "last_update": "2026-11-02T20:18:48Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -125
+                "name": "Detroit Red Wings",
+                "price": 155
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": 105
+                "name": "Florida Panthers",
+                "price": -180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-11-02T20:20:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:23Z",
+            "outcomes": [
+              {
+                "name": "Detroit Red Wings",
+                "price": 154
+              },
+              {
+                "name": "Florida Panthers",
+                "price": -185
               }
             ]
           }
@@ -377,19 +377,417 @@
       {
         "key": "mybookieag",
         "title": "MyBookie.ag",
-        "last_update": "2026-10-23T20:18:57Z",
+        "last_update": "2026-11-02T20:20:22Z",
         "markets": [
           {
             "key": "h2h",
-            "last_update": "2026-10-23T20:18:57Z",
+            "last_update": "2026-11-02T20:20:22Z",
             "outcomes": [
               {
-                "name": "Colorado Avalanche",
-                "price": -126
+                "name": "Detroit Red Wings",
+                "price": 146
               },
               {
-                "name": "Tampa Bay Lightning",
-                "price": 103
+                "name": "Florida Panthers",
+                "price": -180
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6c7ab45fd7ba80a0baccb7861cbe0fbe",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2026-11-03T01:10:00Z",
+    "home_team": "Chicago Blackhawks",
+    "away_team": "Colorado Avalanche",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-11-02T20:19:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:19:33Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 190
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -230
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-11-02T20:20:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:23Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 191
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 191
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-11-02T20:20:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:25Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 188
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -230
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 185
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-11-02T20:20:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:24Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 205
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -250
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-11-02T20:18:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:18:48Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 190
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -230
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-11-02T20:20:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:23Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 190
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -235
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Blackhawks",
+                "price": 181
+              },
+              {
+                "name": "Colorado Avalanche",
+                "price": -228
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8f768a5bd143ea549d68e5c1885023e6",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2026-11-03T02:10:00Z",
+    "home_team": "San Jose Sharks",
+    "away_team": "Calgary Flames",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-11-02T20:19:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:19:33Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": 105
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -125
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-11-02T20:20:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:23Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": -104
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -110
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": -104
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -110
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-11-02T20:20:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:25Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": 104
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -125
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": -110
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -110
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-11-02T20:20:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:24Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": 104
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -122
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-11-02T20:18:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:18:48Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": 100
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-11-02T20:20:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:23Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": 100
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -120
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-11-02T20:20:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-11-02T20:20:22Z",
+            "outcomes": [
+              {
+                "name": "Calgary Flames",
+                "price": 102
+              },
+              {
+                "name": "San Jose Sharks",
+                "price": -125
               }
             ]
           }

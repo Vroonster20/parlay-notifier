@@ -2,7 +2,7 @@
   {
     "date": "2026-11-02",
     "sport": "basketball_nba",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "53ad3f78c949e79381b5e90a70293ac6",
@@ -11,7 +11,7 @@
         "opponent": "Indiana Pacers",
         "price": -416.0,
         "commence_time": "2026-11-03T00:40:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "fdf913d713fd5851d418c59872bdf265",
@@ -20,7 +20,7 @@
         "opponent": "Charlotte Hornets",
         "price": -219.0,
         "commence_time": "2026-11-03T00:40:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "df7f8fce0b1c11db5140d60e1e126eb3",
@@ -29,7 +29,7 @@
         "opponent": "Sacramento Kings",
         "price": -334.0,
         "commence_time": "2026-11-03T01:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
@@ -38,6 +38,49 @@
         "opponent": "Milwaukee Bucks",
         "price": -420.0,
         "commence_time": "2026-11-03T01:10:00+00:00",
+        "result": "win"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "sport": "icehockey_nhl",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "f84f85e8c5fdd0a70594563b0041d706",
+        "sport": "icehockey_nhl",
+        "team": "Tampa Bay Lightning",
+        "opponent": "Detroit Red Wings",
+        "price": -268.0,
+        "commence_time": "2026-11-04T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "6b7950389856112c2b25d0aa1c7cc072",
+        "sport": "icehockey_nhl",
+        "team": "Minnesota Wild",
+        "opponent": "Philadelphia Flyers",
+        "price": -180.0,
+        "commence_time": "2026-11-04T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "371ac1fb21cf79abfd94499c6ee92b90",
+        "sport": "icehockey_nhl",
+        "team": "Montr\u00e9al Canadiens",
+        "opponent": "Winnipeg Jets",
+        "price": -169.0,
+        "commence_time": "2026-11-04T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "f5dd1d8198a0f9c5cc65fe744ef3b1c8",
+        "sport": "icehockey_nhl",
+        "team": "Carolina Hurricanes",
+        "opponent": "Nashville Predators",
+        "price": -197.0,
+        "commence_time": "2026-11-04T01:10:00+00:00",
         "result": "pending"
       }
     ]

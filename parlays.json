@@ -1,0 +1,45 @@
+[
+  {
+    "date": "2026-11-02",
+    "sport": "basketball_nba",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "53ad3f78c949e79381b5e90a70293ac6",
+        "sport": "basketball_nba",
+        "team": "Atlanta Hawks",
+        "opponent": "Indiana Pacers",
+        "price": -416.0,
+        "commence_time": "2026-11-03T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "fdf913d713fd5851d418c59872bdf265",
+        "sport": "basketball_nba",
+        "team": "Detroit Pistons",
+        "opponent": "Charlotte Hornets",
+        "price": -219.0,
+        "commence_time": "2026-11-03T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "df7f8fce0b1c11db5140d60e1e126eb3",
+        "sport": "basketball_nba",
+        "team": "Dallas Mavericks",
+        "opponent": "Sacramento Kings",
+        "price": -334.0,
+        "commence_time": "2026-11-03T01:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
+        "sport": "basketball_nba",
+        "team": "Minnesota Timberwolves",
+        "opponent": "Milwaukee Bucks",
+        "price": -420.0,
+        "commence_time": "2026-11-03T01:10:00+00:00",
+        "result": "pending"
+      }
+    ]
+  }
+]

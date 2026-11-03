@@ -1,5 +1,5 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports"
@@ -78,3 +78,37 @@ def grade_leg(leg, games):
     if team_score < opp_score:
         return "loss"
     return "push"
+
+def grade_history(history):
+    cache = {}
+
+    for parlay in history:
+        if parlay["status"] != "pending":
+            continue
+
+        for leg in parlay["legs"]:
+            if leg["result"] != "pending":
+                continue
+
+            date_str = espn_date_for(leg["commence_time"])
+            key = (leg["sport"], date_str)
+            if key not in cache:
+                cache[key] = fetch_results(leg["sport"], date_str)
+
+            leg["result"] = grade_leg(leg, cache[key])
+
+            start = datetime.fromisoformat(leg["commence_time"])
+            if leg["result"] == "pending" and datetime.now(timezone.utc) - start > timedelta(days=3):
+                leg["result"] = "void"
+
+        parlay["status"] = parlay_status(parlay["legs"])
+
+    return history
+
+def parlay_status(legs):
+    results = [leg["result"] for leg in legs]
+    if "loss" in results:
+        return "lost"
+    if "pending" in results:
+        return "pending"
+    return "won"

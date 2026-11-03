@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
+import unicodedata
 
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports"
 
@@ -57,9 +58,9 @@ def fetch_results(sport_key, date_str):
 
 
 def grade_leg(leg, games):
-    team = leg["team"]
+    team = normalize(leg["team"])
 
-    game = next((g for g in games if team in (g["home"], g["away"])), None)
+    game = next((g for g in games if team in (normalize(g["home"]), normalize(g["away"]))), None)
 
     if game is None:
         print(f"[results] No game found for '{team}', check for a name mismatch")
@@ -68,7 +69,7 @@ def grade_leg(leg, games):
     if not game["completed"]:
         return "pending"
 
-    if team == game["home"]:
+    if team == normalize(game["home"]):
         team_score, opp_score = game["home_score"], game["away_score"]
     else:
         team_score, opp_score = game["away_score"], game["home_score"]
@@ -112,3 +113,7 @@ def parlay_status(legs):
     if "pending" in results:
         return "pending"
     return "won"
+
+def normalize(name):
+    no_accents = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return no_accents.lower().strip()

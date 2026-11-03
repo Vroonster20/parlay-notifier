@@ -16,6 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
@@ -27,11 +32,13 @@ jobs:
           THE_ODDS_KEY: ${{ secrets.THE_ODDS_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           RUN_MODE: live
+          HISTORY_PATH: data/parlays.json
 
       - name: Commit updated history
+        working-directory: data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add history/parlays.json
+          git add parlays.json
           git diff --staged --quiet || git commit -m "Update parlay history"
           git push

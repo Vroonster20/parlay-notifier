@@ -2,8 +2,9 @@ import json
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import os
 
-HISTORY_PATH = Path("history/parlays.json")
+HISTORY_PATH = Path(os.environ.get("HISTORY_PATH", "history/parlays.json"))
 LOCAL_TZ = ZoneInfo("America/Chicago")
 
 def load_history():

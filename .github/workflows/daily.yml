@@ -2,9 +2,9 @@ name: Daily Fliff Parlay
 
 on:
   schedule:
-    - cron: "32 11 * * 0" 
-    - cron: "02 10 * * 1"
-    - cron: "32 11 * * 2-6" 
+    - cron: "32 10 * * 0" 
+    - cron: "02 9 * * 1"
+    - cron: "32 10 * * 2-6" 
   workflow_dispatch: {}      # lets you manually trigger a run from GitHub's UI to test
 
 permissions:

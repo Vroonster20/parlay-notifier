@@ -27,5 +27,5 @@ def send_notification(parlay, title="Today's Safe Parlays!"):
     topic = os.environ.get("NTFY_TOPIC")
     url = f"https://ntfy.sh/{topic}"
 
-    response = requests.post(url, data=final_message.encode('utf-8'), headers= {"Title": title, "Priority": "5", "Tags": "money_with_wings"})
+    response = requests.post(url, data=final_message.encode('utf-8'), headers= {"Title": title, "Priority": "5", "Tags": "money_with_wings", "Click": "https://vroonster20.github.io/parlay-notifier/"})
     response.raise_for_status()

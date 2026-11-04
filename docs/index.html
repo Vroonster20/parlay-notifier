@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Parlays</title>
+  <meta name="description" content="Track record of the daily safe-favorites parlay, by sport.">
+  <meta name="theme-color" content="#04060d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Chakra+Petch:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="masthead">
+      <h1 class="wordmark">Daily Parlays</h1>
+      <p class="updated" id="updated">Loading…</p>
+    </header>
+
+    <nav class="tabs" id="tabs" aria-label="Filter by sport"></nav>
+
+    <main id="app">
+      <section class="stake" aria-labelledby="stake-title">
+        <div class="stake-copy">
+          <h2 id="stake-title" class="stake-title">The daily dollar</h2>
+          <p class="stake-value" id="stake-value">$0.00</p>
+          <p class="stake-caption" id="stake-caption">Loading results…</p>
+        </div>
+        <div class="stake-chart">
+          <div class="grid-floor" aria-hidden="true"></div>
+          <svg id="stake-svg" viewBox="0 0 600 180" preserveAspectRatio="none" role="img" aria-label="Running profit chart"></svg>
+        </div>
+      </section>
+
+      <section class="strip" id="strip" aria-label="Summary"></section>
+
+      <section class="panel" aria-labelledby="dist-title">
+        <h2 id="dist-title" class="section-title">Legs hit per parlay</h2>
+        <div id="dist"></div>
+        <p class="footnote" id="reduced-note"></p>
+      </section>
+
+      <section class="panel" aria-labelledby="active-title">
+        <h2 id="active-title" class="section-title">Active</h2>
+        <div id="active" class="slips"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="history-title">
+        <div class="section-head">
+          <h2 id="history-title" class="section-title">History</h2>
+          <button type="button" class="chip" id="reduced-filter" hidden aria-pressed="false">Reduced only</button>
+        </div>
+        <div id="history" class="slips"></div>
+        <button type="button" class="more" id="more" hidden>Show 10 more</button>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>Picks are the heaviest favorites in a set odds range, averaged across sportsbooks. Graded every morning from final scores. For fun, not financial advice.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

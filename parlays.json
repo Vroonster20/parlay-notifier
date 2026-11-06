@@ -174,7 +174,7 @@
   {
     "date": "2026-11-05",
     "sport": "icehockey_nhl",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
@@ -183,7 +183,7 @@
         "opponent": "Chicago Blackhawks",
         "price": -451.0,
         "commence_time": "2026-11-06T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "eefdb55d84dd6a95ef53b76d3935f3c9",
@@ -192,7 +192,7 @@
         "opponent": "St Louis Blues",
         "price": -219.0,
         "commence_time": "2026-11-06T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
@@ -201,7 +201,7 @@
         "opponent": "Vancouver Canucks",
         "price": -215.0,
         "commence_time": "2026-11-06T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "446de9651d2d2948326d970e9f858a33",
@@ -210,6 +210,92 @@
         "opponent": "Nashville Predators",
         "price": -215.0,
         "commence_time": "2026-11-06T02:40:00+00:00",
+        "result": "loss"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "sport": "basketball_nba",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "9246c91f746732472c13e94bd8e7be85",
+        "sport": "basketball_nba",
+        "team": "Atlanta Hawks",
+        "opponent": "Washington Wizards",
+        "price": -298.0,
+        "commence_time": "2026-11-07T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+        "sport": "basketball_nba",
+        "team": "Boston Celtics",
+        "opponent": "Charlotte Hornets",
+        "price": -358.0,
+        "commence_time": "2026-11-07T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "62a92e31b546d31ba57caf792815bf65",
+        "sport": "basketball_nba",
+        "team": "Dallas Mavericks",
+        "opponent": "Utah Jazz",
+        "price": -269.0,
+        "commence_time": "2026-11-07T01:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "1c60a090180de530cfe273a5d6a381e6",
+        "sport": "basketball_nba",
+        "team": "Toronto Raptors",
+        "opponent": "Milwaukee Bucks",
+        "price": -241.0,
+        "commence_time": "2026-11-07T01:10:00+00:00",
+        "result": "pending"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "sport": "americanfootball_ncaaf",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "11da04c7d3fba48caf11a5d8b66b8ccd",
+        "sport": "americanfootball_ncaaf",
+        "team": "SMU Mustangs",
+        "opponent": "Virginia Tech Hokies",
+        "price": -227.0,
+        "commence_time": "2026-11-07T00:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "59047d3be974c2ec05c7e6282752287b",
+        "sport": "americanfootball_ncaaf",
+        "team": "Nebraska Cornhuskers",
+        "opponent": "Illinois Fighting Illini",
+        "price": -188.0,
+        "commence_time": "2026-11-07T01:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "45fdbdbe6ed3d9922fa8b26b8a885f0e",
+        "sport": "americanfootball_ncaaf",
+        "team": "New Mexico Lobos",
+        "opponent": "Nevada Wolf Pack",
+        "price": -414.0,
+        "commence_time": "2026-11-07T02:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "722ed661705df150a38e7786949ce241",
+        "sport": "americanfootball_ncaaf",
+        "team": "Arizona Wildcats",
+        "opponent": "TCU Horned Frogs",
+        "price": -273.0,
+        "commence_time": "2026-11-07T03:15:00+00:00",
         "result": "pending"
       }
     ]

@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
+import re
 import unicodedata
 
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports"
@@ -63,7 +64,7 @@ def grade_leg(leg, games):
     game = next((g for g in games if team in (normalize(g["home"]), normalize(g["away"]))), None)
 
     if game is None:
-        print(f"[results] No game found for '{team}', check for a name mismatch")
+        print(f"[results] No game found for '{leg['team']}', check for a name mismatch")
         return "pending"
 
     if not game["completed"]:
@@ -84,7 +85,9 @@ def grade_history(history):
     cache = {}
 
     for parlay in history:
-        if parlay["status"] != "pending":
+        # Check every parlay that still has an ungraded leg, even one already lost,
+        # so each leg ends up with a final result on the website
+        if not any(leg["result"] == "pending" for leg in parlay["legs"]):
             continue
 
         for leg in parlay["legs"]:
@@ -114,6 +117,17 @@ def parlay_status(legs):
         return "pending"
     return "won"
 
+# Names that differ between The Odds API and ESPN beyond punctuation/accents.
+# Add an entry whenever "No game found" shows up in the logs.
+ALIASES = {
+    "la clippers": "los angeles clippers",
+}
+
+
 def normalize(name):
+    """Compare team names ignoring accents, punctuation, capitalization and extra spaces.
+    "St. Louis Blues" and "St Louis Blues" both become "st louis blues"."""
     no_accents = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
-    return no_accents.lower().strip()
+    no_punctuation = re.sub(r"[^\w\s]", "", no_accents)
+    cleaned = " ".join(no_punctuation.lower().split())
+    return ALIASES.get(cleaned, cleaned)

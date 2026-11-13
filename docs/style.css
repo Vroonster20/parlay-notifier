@@ -197,8 +197,16 @@ button { font: inherit; color: inherit; }
   stroke-width: 3;
   stroke-linejoin: round;
   stroke-linecap: round;
-  vector-effect: non-scaling-stroke;
+}
+
+.trail.up {
+  stroke: var(--cyan);
   filter: drop-shadow(0 0 6px var(--cyan-dim));
+}
+
+.trail.down {
+  stroke: var(--orange);
+  filter: drop-shadow(0 0 6px rgba(255, 122, 26, 0.45));
 }
 
 .trail.draw {
@@ -215,7 +223,6 @@ button { font: inherit; color: inherit; }
   stroke: var(--steel);
   stroke-width: 1;
   stroke-dasharray: 4 6;
-  vector-effect: non-scaling-stroke;
 }
 
 /* ---------- Summary strip ---------- */

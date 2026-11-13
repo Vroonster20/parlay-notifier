@@ -148,6 +148,8 @@ def _fetch_live_odds():
         "commenceTimeTo": window_end.strftime(API_TIME_FMT),
     }
 
+    last_response = None
+
     for key in selected_sports:
         m, d = probe_month_day.get(key, (today.month, today.day))
         probe = date(today.year, m, d)
@@ -163,6 +165,7 @@ def _fetch_live_odds():
             params={"apiKey": api_key, **window},
         )
         events_resp.raise_for_status()
+        last_response = events_resp
 
         if not events_resp.json():
             print(f"[{key}] no games today, skipping odds call")
@@ -174,6 +177,7 @@ def _fetch_live_odds():
             params={**params, **window},
         )
         response.raise_for_status()
+        last_response = response
         print(f"[{key}] odds call cost:", response.headers.get("x-requests-last"))
 
         data = response.json()
@@ -183,8 +187,9 @@ def _fetch_live_odds():
             json.dump(data, f, indent=2)
         all_games.extend(data)
 
-    print("\nRemaining:", response.headers.get("x-requests-remaining"))
-    print("Used:", response.headers.get("x-requests-used"))
+    if last_response is not None:
+        print("\nRemaining:", response.headers.get("x-requests-remaining"))
+        print("Used:", response.headers.get("x-requests-used"))
 
     return all_games
 

@@ -181,11 +181,16 @@ function renderStake(summary, label) {
 
 function drawTrail(series) {
   const svg = $("stake-svg");
+  drawTrail.series = series;
   svg.textContent = "";
-  const W = 600;
-  const H = 180;
-  const pad = 14;
   const ns = "http://www.w3.org/2000/svg";
+
+  // Draw in real pixels, so nothing gets stretched and no scaling tricks are needed
+  const box = svg.getBoundingClientRect();
+  const W = Math.max(1, Math.round(box.width));
+  const H = Math.max(1, Math.round(box.height)) || 180;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const pad = 14;
 
   const min = Math.min(0, ...series);
   const max = Math.max(0, ...series);
@@ -195,23 +200,22 @@ function drawTrail(series) {
   const y = (v) => pad + (1 - (v - min) / span) * (H - pad * 2);
   const zeroY = y(0);
 
-  // Cyan above break-even, orange below
+  // Two copies of the line, each clipped to one side of break-even:
+  // cyan above, orange below. Solid colors render the same in every browser.
+  const split = zeroY + 2; // break-even itself stays cyan
   const defs = document.createElementNS(ns, "defs");
-  const grad = document.createElementNS(ns, "linearGradient");
-  grad.id = "trail-color";
-  grad.setAttribute("gradientUnits", "userSpaceOnUse");
-  grad.setAttribute("x1", "0");
-  grad.setAttribute("x2", "0");
-  grad.setAttribute("y1", "0");
-  grad.setAttribute("y2", String(H));
-  const split = Math.min(1, (zeroY + 2) / H); // break-even itself stays cyan
-  for (const [offset, color] of [[0, "#3df2ff"], [split, "#3df2ff"], [split, "#ff7a1a"], [1, "#ff7a1a"]]) {
-    const stop = document.createElementNS(ns, "stop");
-    stop.setAttribute("offset", String(offset));
-    stop.setAttribute("stop-color", color);
-    grad.append(stop);
+  for (const [id, top, height] of [["clip-up", -20, split + 20], ["clip-down", split, H - split + 20]]) {
+    const clip = document.createElementNS(ns, "clipPath");
+    clip.id = id;
+    clip.setAttribute("clipPathUnits", "userSpaceOnUse");
+    const rect = document.createElementNS(ns, "rect");
+    rect.setAttribute("x", "-20");
+    rect.setAttribute("y", String(top));
+    rect.setAttribute("width", String(W + 40));
+    rect.setAttribute("height", String(Math.max(0, height)));
+    clip.append(rect);
+    defs.append(clip);
   }
-  defs.append(grad);
   svg.append(defs);
 
   const base = document.createElementNS(ns, "line");
@@ -229,20 +233,33 @@ function drawTrail(series) {
   }
   d += ` H ${W}`;
 
-  const path = document.createElementNS(ns, "path");
-  path.setAttribute("d", d);
-  path.setAttribute("class", "trail");
-  path.setAttribute("stroke", "url(#trail-color)");
-  svg.append(path);
+  const animate = !drawTrail.played;
+  for (const [side, clipId] of [["up", "clip-up"], ["down", "clip-down"]]) {
+    const path = document.createElementNS(ns, "path");
+    path.setAttribute("d", d);
+    path.setAttribute("class", `trail ${side}`);
+    path.setAttribute("clip-path", `url(#${clipId})`);
+    svg.append(path);
 
-  if (!drawTrail.played) {
-    // The stroke is measured on screen (non-scaling), so scale the length to the chart's size
-    const box = svg.getBoundingClientRect();
-    const scale = Math.max(box.width / W, box.height / H, 1);
-    path.style.setProperty("--len", String(Math.ceil(path.getTotalLength() * scale)));
-    path.classList.add("draw");
-    path.addEventListener("animationend", () => path.classList.remove("draw"), { once: true });
-    drawTrail.played = true;
+    if (animate) {
+      path.style.setProperty("--len", String(Math.ceil(path.getTotalLength())));
+      path.classList.add("draw");
+      path.addEventListener("animationend", () => path.classList.remove("draw"), { once: true });
+    }
+  }
+  drawTrail.played = true;
+
+  // Redraw at the new size when the chart is resized (rotating a phone, resizing a window)
+  if (!drawTrail.observer && "ResizeObserver" in window) {
+    let lastWidth = W;
+    drawTrail.observer = new ResizeObserver(() => {
+      const width = Math.round(svg.getBoundingClientRect().width);
+      if (width && width !== lastWidth) {
+        lastWidth = width;
+        drawTrail(drawTrail.series);
+      }
+    });
+    drawTrail.observer.observe(svg);
   }
 }
 

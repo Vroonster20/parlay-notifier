@@ -188,8 +188,8 @@ def _fetch_live_odds():
         all_games.extend(data)
 
     if last_response is not None:
-        print("\nRemaining:", response.headers.get("x-requests-remaining"))
-        print("Used:", response.headers.get("x-requests-used"))
+        print("\nRemaining:", last_response.headers.get("x-requests-remaining"))
+        print("Used:", last_response.headers.get("x-requests-used"))
 
     return all_games
 

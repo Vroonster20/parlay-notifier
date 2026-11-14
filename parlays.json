@@ -862,7 +862,7 @@
   {
     "date": "2026-11-13",
     "sport": "basketball_nba",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "6669b911691463c669a5c10574742e8e",
@@ -871,7 +871,7 @@
         "opponent": "Indiana Pacers",
         "price": -333.0,
         "commence_time": "2026-11-14T00:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "76416359b5453c01968e94702a375f16",
@@ -880,7 +880,7 @@
         "opponent": "Milwaukee Bucks",
         "price": -388.0,
         "commence_time": "2026-11-14T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "80ffc963f864f3d4fcefa82fd02b7d7b",
@@ -889,7 +889,7 @@
         "opponent": "Chicago Bulls",
         "price": -282.0,
         "commence_time": "2026-11-14T01:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "a51c350318d7570c2b74af08eedb9fcd",
@@ -898,6 +898,92 @@
         "opponent": "Sacramento Kings",
         "price": -478.0,
         "commence_time": "2026-11-14T03:10:00+00:00",
+        "result": "win"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "sport": "americanfootball_ncaaf",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "01787a755109adbf19adf48ca4d60ddb",
+        "sport": "americanfootball_ncaaf",
+        "team": "East Carolina Pirates",
+        "opponent": "Charlotte 49ers",
+        "price": -425.0,
+        "commence_time": "2026-11-14T18:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "d0327c5775ed8cc9854411f8e077af93",
+        "sport": "americanfootball_ncaaf",
+        "team": "Virginia Cavaliers",
+        "opponent": "California Golden Bears",
+        "price": -473.0,
+        "commence_time": "2026-11-14T20:30:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "4c76e6c2d67084d144ebe452d7d608a0",
+        "sport": "americanfootball_ncaaf",
+        "team": "Oregon Ducks",
+        "opponent": "Michigan Wolverines",
+        "price": -402.0,
+        "commence_time": "2026-11-14T20:30:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "d466840e3c50d2fdad6fd7e799fdf921",
+        "sport": "americanfootball_ncaaf",
+        "team": "Penn State Nittany Lions",
+        "opponent": "Minnesota Golden Gophers",
+        "price": -500.0,
+        "commence_time": "2026-11-15T00:00:00+00:00",
+        "result": "pending"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "sport": "icehockey_nhl",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "ccdee466b63a2accb1d804d5ca9e4bdc",
+        "sport": "icehockey_nhl",
+        "team": "Carolina Hurricanes",
+        "opponent": "Seattle Kraken",
+        "price": -399.0,
+        "commence_time": "2026-11-14T18:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "9df5283f800c7d4c2d0bd38b7c5f4846",
+        "sport": "icehockey_nhl",
+        "team": "Tampa Bay Lightning",
+        "opponent": "Detroit Red Wings",
+        "price": -219.0,
+        "commence_time": "2026-11-15T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "e7f30a1c549ae1d91aac850b81bad637",
+        "sport": "icehockey_nhl",
+        "team": "Utah Mammoth",
+        "opponent": "San Jose Sharks",
+        "price": -196.0,
+        "commence_time": "2026-11-15T02:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "4d5a1a721175165a7fc09cc39fd19214",
+        "sport": "icehockey_nhl",
+        "team": "Los Angeles Kings",
+        "opponent": "Calgary Flames",
+        "price": -177.0,
+        "commence_time": "2026-11-15T03:10:00+00:00",
         "result": "pending"
       }
     ]

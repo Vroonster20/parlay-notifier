@@ -1249,7 +1249,7 @@
   {
     "date": "2026-11-18",
     "sport": "basketball_nba",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "f9ae24215832bbc1703c9836d0c96751",
@@ -1258,7 +1258,7 @@
         "opponent": "Indiana Pacers",
         "price": -300.0,
         "commence_time": "2026-11-19T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "990b541d0ada46fce07ce8b502cf425c",
@@ -1267,7 +1267,7 @@
         "opponent": "New Orleans Pelicans",
         "price": -253.0,
         "commence_time": "2026-11-19T01:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
@@ -1276,7 +1276,7 @@
         "opponent": "Utah Jazz",
         "price": -442.0,
         "commence_time": "2026-11-19T03:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "4bdafbab228335fd29f62006a4bc932d",
@@ -1285,6 +1285,49 @@
         "opponent": "Sacramento Kings",
         "price": -260.0,
         "commence_time": "2026-11-19T03:10:00+00:00",
+        "result": "win"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "sport": "icehockey_nhl",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "3449054d3b59c2c7fc8cf914dbd45ea6",
+        "sport": "icehockey_nhl",
+        "team": "Carolina Hurricanes",
+        "opponent": "Montr\u00e9al Canadiens",
+        "price": -304.0,
+        "commence_time": "2026-11-20T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "3e6894e350f62db024db622aedba4507",
+        "sport": "icehockey_nhl",
+        "team": "Minnesota Wild",
+        "opponent": "Calgary Flames",
+        "price": -234.0,
+        "commence_time": "2026-11-20T01:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "7f30902099116c9c5824e85201be7d60",
+        "sport": "icehockey_nhl",
+        "team": "Columbus Blue Jackets",
+        "opponent": "Chicago Blackhawks",
+        "price": -163.0,
+        "commence_time": "2026-11-20T01:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "64955eccc864e1b34e23754d71319db4",
+        "sport": "icehockey_nhl",
+        "team": "Seattle Kraken",
+        "opponent": "Vancouver Canucks",
+        "price": -167.0,
+        "commence_time": "2026-11-20T02:50:00+00:00",
         "result": "pending"
       }
     ]

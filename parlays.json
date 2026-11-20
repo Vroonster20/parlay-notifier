@@ -1292,7 +1292,7 @@
   {
     "date": "2026-11-19",
     "sport": "icehockey_nhl",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "3449054d3b59c2c7fc8cf914dbd45ea6",
@@ -1301,7 +1301,7 @@
         "opponent": "Montr\u00e9al Canadiens",
         "price": -304.0,
         "commence_time": "2026-11-20T00:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "3e6894e350f62db024db622aedba4507",
@@ -1310,7 +1310,7 @@
         "opponent": "Calgary Flames",
         "price": -234.0,
         "commence_time": "2026-11-20T01:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "7f30902099116c9c5824e85201be7d60",
@@ -1319,7 +1319,7 @@
         "opponent": "Chicago Blackhawks",
         "price": -163.0,
         "commence_time": "2026-11-20T01:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "64955eccc864e1b34e23754d71319db4",
@@ -1328,6 +1328,49 @@
         "opponent": "Vancouver Canucks",
         "price": -167.0,
         "commence_time": "2026-11-20T02:50:00+00:00",
+        "result": "win"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "sport": "basketball_nba",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "f8ad540db00e4a4a360d67dfcb7a53b8",
+        "sport": "basketball_nba",
+        "team": "Atlanta Hawks",
+        "opponent": "Charlotte Hornets",
+        "price": -248.0,
+        "commence_time": "2026-11-21T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "6e1faf38d3fed9e0396d6613891770e1",
+        "sport": "basketball_nba",
+        "team": "Orlando Magic",
+        "opponent": "Brooklyn Nets",
+        "price": -257.0,
+        "commence_time": "2026-11-21T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "10e9b9aca502ce158d6a3a91bf00bfd2",
+        "sport": "basketball_nba",
+        "team": "Cleveland Cavaliers",
+        "opponent": "Indiana Pacers",
+        "price": -225.0,
+        "commence_time": "2026-11-21T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "9051693857c6a0e5e1bc6bb2b4f6fe35",
+        "sport": "basketball_nba",
+        "team": "Detroit Pistons",
+        "opponent": "Toronto Raptors",
+        "price": -264.0,
+        "commence_time": "2026-11-21T00:40:00+00:00",
         "result": "pending"
       }
     ]

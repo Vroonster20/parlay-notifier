@@ -1464,7 +1464,7 @@
   {
     "date": "2026-11-22",
     "sport": "americanfootball_nfl",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "5e63079b678f8c13419adc169fff02d3",
@@ -1473,7 +1473,7 @@
         "opponent": "Tennessee Titans",
         "price": -377.0,
         "commence_time": "2026-11-22T18:05:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "41e2dd69bddd65d7e823d9ed61cc2afc",
@@ -1482,7 +1482,7 @@
         "opponent": "Tampa Bay Buccaneers",
         "price": -215.0,
         "commence_time": "2026-11-22T18:05:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "cbe45bafcc2615fc1d96cbc12840377a",
@@ -1491,7 +1491,7 @@
         "opponent": "Philadelphia Eagles",
         "price": -200.0,
         "commence_time": "2026-11-22T18:05:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "8ba112fabf4e87639338a5f437c5abfe",
@@ -1500,14 +1500,14 @@
         "opponent": "New York Giants",
         "price": -278.0,
         "commence_time": "2026-11-22T21:25:00+00:00",
-        "result": "pending"
+        "result": "loss"
       }
     ]
   },
   {
     "date": "2026-11-22",
     "sport": "basketball_nba",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "15a079f55e23d26237844224f258c972",
@@ -1516,7 +1516,7 @@
         "opponent": "Chicago Bulls",
         "price": -441.0,
         "commence_time": "2026-11-23T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "335ad5604b51b7742fd1dee92d78da35",
@@ -1525,7 +1525,7 @@
         "opponent": "Washington Wizards",
         "price": -200.0,
         "commence_time": "2026-11-23T00:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "031fa761cc38e1b5afd9309b731b38b2",
@@ -1534,7 +1534,7 @@
         "opponent": "Indiana Pacers",
         "price": -349.0,
         "commence_time": "2026-11-23T01:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "b8c5bdb50209c7d050400c7d28c32e30",
@@ -1543,6 +1543,92 @@
         "opponent": "Golden State Warriors",
         "price": -345.0,
         "commence_time": "2026-11-23T01:40:00+00:00",
+        "result": "loss"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "sport": "basketball_nba",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "c9b6c9f77fd3628308dd34f50854a9c0",
+        "sport": "basketball_nba",
+        "team": "Oklahoma City Thunder",
+        "opponent": "Indiana Pacers",
+        "price": -227.0,
+        "commence_time": "2026-11-24T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "a5184238c27b9c3bfca29220f9d5d14a",
+        "sport": "basketball_nba",
+        "team": "Toronto Raptors",
+        "opponent": "Milwaukee Bucks",
+        "price": -464.0,
+        "commence_time": "2026-11-24T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "b8dfee1fca57ec870528a14c792ad73a",
+        "sport": "basketball_nba",
+        "team": "Cleveland Cavaliers",
+        "opponent": "Chicago Bulls",
+        "price": -335.0,
+        "commence_time": "2026-11-24T01:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "6caeb7cce7c8340fed588f3badd83fe0",
+        "sport": "basketball_nba",
+        "team": "Phoenix Suns",
+        "opponent": "New Orleans Pelicans",
+        "price": -153.0,
+        "commence_time": "2026-11-24T01:10:00+00:00",
+        "result": "pending"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "sport": "icehockey_nhl",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "e9429c68a48753de9779d88e6cf393ad",
+        "sport": "icehockey_nhl",
+        "team": "New Jersey Devils",
+        "opponent": "Columbus Blue Jackets",
+        "price": -204.0,
+        "commence_time": "2026-11-24T00:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "d127e1e72a1b9087aca692f3b5812532",
+        "sport": "icehockey_nhl",
+        "team": "Ottawa Senators",
+        "opponent": "Calgary Flames",
+        "price": -253.0,
+        "commence_time": "2026-11-24T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "2d095386ab1321c89df24896d98495ee",
+        "sport": "icehockey_nhl",
+        "team": "New York Islanders",
+        "opponent": "Toronto Maple Leafs",
+        "price": -160.0,
+        "commence_time": "2026-11-24T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "43376208ec2111794696249fe50f5e84",
+        "sport": "icehockey_nhl",
+        "team": "Minnesota Wild",
+        "opponent": "San Jose Sharks",
+        "price": -172.0,
+        "commence_time": "2026-11-24T03:10:00+00:00",
         "result": "pending"
       }
     ]

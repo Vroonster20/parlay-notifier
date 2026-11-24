@@ -1550,7 +1550,7 @@
   {
     "date": "2026-11-23",
     "sport": "basketball_nba",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "c9b6c9f77fd3628308dd34f50854a9c0",
@@ -1559,7 +1559,7 @@
         "opponent": "Indiana Pacers",
         "price": -227.0,
         "commence_time": "2026-11-24T00:40:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "a5184238c27b9c3bfca29220f9d5d14a",
@@ -1568,7 +1568,7 @@
         "opponent": "Milwaukee Bucks",
         "price": -464.0,
         "commence_time": "2026-11-24T00:40:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "b8dfee1fca57ec870528a14c792ad73a",
@@ -1577,7 +1577,7 @@
         "opponent": "Chicago Bulls",
         "price": -335.0,
         "commence_time": "2026-11-24T01:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "6caeb7cce7c8340fed588f3badd83fe0",
@@ -1586,14 +1586,14 @@
         "opponent": "New Orleans Pelicans",
         "price": -153.0,
         "commence_time": "2026-11-24T01:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       }
     ]
   },
   {
     "date": "2026-11-23",
     "sport": "icehockey_nhl",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "e9429c68a48753de9779d88e6cf393ad",
@@ -1602,7 +1602,7 @@
         "opponent": "Columbus Blue Jackets",
         "price": -204.0,
         "commence_time": "2026-11-24T00:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "d127e1e72a1b9087aca692f3b5812532",
@@ -1611,7 +1611,7 @@
         "opponent": "Calgary Flames",
         "price": -253.0,
         "commence_time": "2026-11-24T00:40:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "2d095386ab1321c89df24896d98495ee",
@@ -1620,7 +1620,7 @@
         "opponent": "Toronto Maple Leafs",
         "price": -160.0,
         "commence_time": "2026-11-24T00:40:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "43376208ec2111794696249fe50f5e84",
@@ -1629,7 +1629,7 @@
         "opponent": "San Jose Sharks",
         "price": -172.0,
         "commence_time": "2026-11-24T03:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       }
     ]
   }

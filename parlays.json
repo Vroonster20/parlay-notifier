@@ -1636,7 +1636,7 @@
   {
     "date": "2026-11-25",
     "sport": "basketball_nba",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "87ce247fb83685389ca8ffb21be6cd3e",
@@ -1645,7 +1645,7 @@
         "opponent": "Chicago Bulls",
         "price": -165.0,
         "commence_time": "2026-11-26T00:10:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "698d6d78acf30f4ff4e4aaf6670249ee",
@@ -1654,7 +1654,7 @@
         "opponent": "Los Angeles Clippers",
         "price": -267.0,
         "commence_time": "2026-11-26T01:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "60fd73164f7b0d1848f998d922155d87",
@@ -1663,7 +1663,7 @@
         "opponent": "Phoenix Suns",
         "price": -390.0,
         "commence_time": "2026-11-26T01:40:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "e6df92326adb480e427bb7c10f445c60",
@@ -1672,14 +1672,14 @@
         "opponent": "Sacramento Kings",
         "price": -269.0,
         "commence_time": "2026-11-26T03:10:00+00:00",
-        "result": "pending"
+        "result": "win"
       }
     ]
   },
   {
     "date": "2026-11-25",
     "sport": "icehockey_nhl",
-    "status": "pending",
+    "status": "lost",
     "legs": [
       {
         "event_id": "71f3e5885a8f467260baa9aa31c62332",
@@ -1688,7 +1688,7 @@
         "opponent": "Winnipeg Jets",
         "price": -165.0,
         "commence_time": "2026-11-26T00:00:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "52d88f1e2ea2e8165d992430998b84f1",
@@ -1697,7 +1697,7 @@
         "opponent": "Calgary Flames",
         "price": -169.0,
         "commence_time": "2026-11-26T00:00:00+00:00",
-        "result": "pending"
+        "result": "loss"
       },
       {
         "event_id": "54f5b5907980a875945c22ecce9a7537",
@@ -1706,7 +1706,7 @@
         "opponent": "Vancouver Canucks",
         "price": -228.0,
         "commence_time": "2026-11-26T00:30:00+00:00",
-        "result": "pending"
+        "result": "win"
       },
       {
         "event_id": "73d5e978fab618f46090f2dc47721bda",
@@ -1715,7 +1715,7 @@
         "opponent": "Nashville Predators",
         "price": -171.0,
         "commence_time": "2026-11-26T01:00:00+00:00",
-        "result": "pending"
+        "result": "loss"
       }
     ]
   }

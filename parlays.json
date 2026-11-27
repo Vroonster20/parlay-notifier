@@ -1718,5 +1718,134 @@
         "result": "loss"
       }
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "sport": "basketball_nba",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "709de4f76f95aebf383d180ac3c6f679",
+        "sport": "basketball_nba",
+        "team": "Toronto Raptors",
+        "opponent": "Brooklyn Nets",
+        "price": -374.0,
+        "commence_time": "2026-11-28T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "326e8215b0369df0d4d65e5c0afe9ff5",
+        "sport": "basketball_nba",
+        "team": "Detroit Pistons",
+        "opponent": "Milwaukee Bucks",
+        "price": -446.0,
+        "commence_time": "2026-11-28T00:40:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "c5dc35b4116988de2c1425df17456478",
+        "sport": "basketball_nba",
+        "team": "Boston Celtics",
+        "opponent": "Atlanta Hawks",
+        "price": -357.0,
+        "commence_time": "2026-11-28T01:10:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "428050645d1dc8b16d84287e21de55fa",
+        "sport": "basketball_nba",
+        "team": "Denver Nuggets",
+        "opponent": "Utah Jazz",
+        "price": -443.0,
+        "commence_time": "2026-11-28T02:40:00+00:00",
+        "result": "pending"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "sport": "americanfootball_ncaaf",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "5fc40a6a68f1652a38d2844a90358df2",
+        "sport": "americanfootball_ncaaf",
+        "team": "North Dakota State Bison",
+        "opponent": "San Jose State Spartans",
+        "price": -384.0,
+        "commence_time": "2026-11-27T20:30:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "45d4d87e236a38e2feb11f57820ff03f",
+        "sport": "americanfootball_ncaaf",
+        "team": "New Mexico Lobos",
+        "opponent": "Air Force Falcons",
+        "price": -283.0,
+        "commence_time": "2026-11-27T21:30:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "e6a3c909a8cfc7b2c666252e246418c7",
+        "sport": "americanfootball_ncaaf",
+        "team": "Wisconsin Badgers",
+        "opponent": "Minnesota Golden Gophers",
+        "price": -352.0,
+        "commence_time": "2026-11-28T00:30:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "4c69ecf41bb2d36dfeedeae23acc5b86",
+        "sport": "americanfootball_ncaaf",
+        "team": "Texas Longhorns",
+        "opponent": "Texas A&M Aggies",
+        "price": -463.0,
+        "commence_time": "2026-11-28T00:30:00+00:00",
+        "result": "pending"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "sport": "icehockey_nhl",
+    "status": "pending",
+    "legs": [
+      {
+        "event_id": "a76ba8f9808ac21b09342afdd5df0b32",
+        "sport": "icehockey_nhl",
+        "team": "Philadelphia Flyers",
+        "opponent": "Vancouver Canucks",
+        "price": -237.0,
+        "commence_time": "2026-11-27T20:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "80ad2e83d5b53a2f48a70cfdecd3dc5c",
+        "sport": "icehockey_nhl",
+        "team": "Vegas Golden Knights",
+        "opponent": "San Jose Sharks",
+        "price": -215.0,
+        "commence_time": "2026-11-27T21:00:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "05bd16c51ce4454e77900af56cd8997c",
+        "sport": "icehockey_nhl",
+        "team": "New York Rangers",
+        "opponent": "Chicago Blackhawks",
+        "price": -177.0,
+        "commence_time": "2026-11-27T22:30:00+00:00",
+        "result": "pending"
+      },
+      {
+        "event_id": "6be85c97118cc429ba24770044f011cd",
+        "sport": "icehockey_nhl",
+        "team": "Edmonton Oilers",
+        "opponent": "Seattle Kraken",
+        "price": -210.0,
+        "commence_time": "2026-11-28T01:00:00+00:00",
+        "result": "pending"
+      }
+    ]
   }
 ]
